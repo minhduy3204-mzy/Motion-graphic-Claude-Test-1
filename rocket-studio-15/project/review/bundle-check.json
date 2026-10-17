@@ -1,0 +1,66 @@
+{
+  "archive": "/workspace/Motion-graphic-Claude-Test-1/rocket-studio-15/deliverables/rocket-studio-editable-project.zip",
+  "archiveBytes": 11603166,
+  "archiveSha256": "824d664951dad8b5037119624a00af803316a59d2eab9122aa38a28f51562061",
+  "archiveCrc": "passed",
+  "sourceFiles": 84,
+  "cleanExtraction": "/tmp/rocket-studio-bundle-check-WFZnlh/rocket-studio-15",
+  "install": {
+    "command": "npm ci --ignore-scripts --cache /tmp/rocket-studio-bundle-cache",
+    "status": "passed",
+    "packagesAdded": 427
+  },
+  "native": {
+    "composition": "RocketStudio",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "duration": 15,
+    "frames": 900,
+    "renderedFrame": 810,
+    "renderStatus": "passed",
+    "browserExecutable": "/usr/bin/chromium",
+    "image": "/tmp/rocket-studio-bundle-check-WFZnlh/rocket-studio-15/bundle-native-frame-810.png",
+    "visualReview": "Readable final name, CTA and URL; correct fonts and no clipping."
+  },
+  "hyperframes": {
+    "timelineDuration": 12.804,
+    "rootDuration": 15,
+    "time": 12.804,
+    "fontCount": 3,
+    "fontManropeReady": true,
+    "fontMonoReady": true,
+    "audioReadyState": 4,
+    "audioDuration": 15,
+    "audioNetworkState": 1,
+    "title": "Rocket Studio",
+    "titleFit": "1",
+    "brandWidth": 810,
+    "brandScrollWidth": 810,
+    "brandOpacity": "1",
+    "errors": [],
+    "failures": [],
+    "serverUrl": "http://127.0.0.1:3025/",
+    "requestedSeek": 13.5,
+    "visualReview": "Correct final lockup; no clipping or missing assets.",
+    "holdContract": "15-second root data-duration and audio are authoritative. Visual GSAP tracks intentionally finish at 12.804 s; later seeks clamp to the same final hold."
+  },
+  "limitedArchiveUpdate": {
+    "changedFiles": [
+      "rocket-studio-15/scripts/render.mjs"
+    ],
+    "otherSourceFilesIdenticalToTestedExtraction": true,
+    "updatedHelperMatchesOriginalProject": true,
+    "updatedHelperSha256": "009c00192a0f5cdc6881cf7168d1225f005654326752262e20b501de311e5cc9",
+    "scope": "Finishing helper now respects audioEnabled/masterVolume render props. All visual, font, audio and native composition source bytes remain those tested above."
+  },
+  "cleanup": {
+    "testBrowsersClosed": true,
+    "temporaryServerClosed": true,
+    "originalPreviewServersUnchanged": [
+      3020,
+      3021
+    ]
+  },
+  "result": "passed"
+}

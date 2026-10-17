@@ -1,0 +1,115 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "duration": 15,
+  "frames": 900,
+  "scenes": [
+    {
+      "id": "establish",
+      "name": "01 / The canvas",
+      "duration": 2.4,
+      "index": 0,
+      "start": 0,
+      "startFrame": 0,
+      "frames": 144,
+      "end": 2.4
+    },
+    {
+      "id": "select",
+      "name": "02 / Select the title",
+      "duration": 2.2,
+      "index": 1,
+      "start": 2.4,
+      "startFrame": 144,
+      "frames": 132,
+      "end": 4.6
+    },
+    {
+      "id": "style",
+      "name": "03 / Give it direction",
+      "duration": 3.4,
+      "index": 2,
+      "start": 4.6,
+      "startFrame": 276,
+      "frames": 204,
+      "end": 8
+    },
+    {
+      "id": "reveal",
+      "name": "04 / Preview the website",
+      "duration": 3.4,
+      "index": 3,
+      "start": 8,
+      "startFrame": 480,
+      "frames": 204,
+      "end": 11.4
+    },
+    {
+      "id": "brand",
+      "name": "05 / Rocket Studio",
+      "duration": 3.6,
+      "index": 4,
+      "start": 11.4,
+      "startFrame": 684,
+      "frames": 216,
+      "end": 15
+    }
+  ],
+  "cues": [
+    {
+      "id": "select",
+      "sceneId": "select",
+      "type": "select",
+      "time": 3.016,
+      "duration": 0.22,
+      "strength": 0.8,
+      "pan": 0
+    },
+    {
+      "id": "weight",
+      "sceneId": "style",
+      "type": "click",
+      "time": 5.279999999999999,
+      "duration": 0.22,
+      "strength": 0.6,
+      "pan": 0.5
+    },
+    {
+      "id": "fill",
+      "sceneId": "style",
+      "type": "style",
+      "time": 6.504,
+      "duration": 0.22,
+      "strength": 0.8,
+      "pan": 0.5
+    },
+    {
+      "id": "preview",
+      "sceneId": "reveal",
+      "type": "click",
+      "time": 9.224,
+      "duration": 0.22,
+      "strength": 0.6,
+      "pan": 0
+    },
+    {
+      "id": "expand",
+      "sceneId": "brand",
+      "type": "whoosh",
+      "time": 11.472,
+      "duration": 0.65,
+      "strength": 0.8,
+      "pan": 0
+    },
+    {
+      "id": "resolve",
+      "sceneId": "brand",
+      "type": "resolve",
+      "time": 12.66,
+      "duration": 1.4,
+      "strength": 0.8,
+      "pan": 0
+    }
+  ]
+}

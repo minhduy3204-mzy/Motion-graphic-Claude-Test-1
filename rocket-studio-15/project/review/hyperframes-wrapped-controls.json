@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "assertions": {
+    "wrappedConfigAccepted": true,
+    "retimedAudio": true,
+    "mutedAudio": true,
+    "cursorHidden": true,
+    "depthZero": true,
+    "selectionFollowsEditedTitle": true,
+    "masterVolume": true
+  },
+  "variantDuration": 15.5,
+  "variantFrames": 930,
+  "audioSamples": 744000,
+  "sampleRate": 48000,
+  "selectionTarget": {
+    "x": 726.6400000000001,
+    "y": 506
+  },
+  "defaultRestored": true
+}

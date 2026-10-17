@@ -1,0 +1,118 @@
+{
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1",
+    "frames": 900,
+    "duration": 15
+  },
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "sampleRate": 48000,
+    "duration": 15
+  },
+  "containerDuration": 15,
+  "fullDecodePassed": true,
+  "playback": {
+    "rate": 1,
+    "muted": false,
+    "duration": 15,
+    "wallSeconds": 15.086800000000745,
+    "ended": true,
+    "quality": {
+      "totalVideoFrames": 900,
+      "droppedVideoFrames": 0,
+      "corruptedVideoFrames": 0
+    },
+    "samples": [
+      {
+        "wall": 1.0002000000001863,
+        "media": 0.93288,
+        "ready": 4
+      },
+      {
+        "wall": 2.000100000000559,
+        "media": 1.932779,
+        "ready": 4
+      },
+      {
+        "wall": 3.000200000000186,
+        "media": 2.932785,
+        "ready": 4
+      },
+      {
+        "wall": 4.000200000000186,
+        "media": 3.932764,
+        "ready": 4
+      },
+      {
+        "wall": 5.000100000000558,
+        "media": 4.929446,
+        "ready": 4
+      },
+      {
+        "wall": 6.000100000000558,
+        "media": 5.932787,
+        "ready": 4
+      },
+      {
+        "wall": 7.000100000000558,
+        "media": 6.932789,
+        "ready": 4
+      },
+      {
+        "wall": 8.00010000000056,
+        "media": 7.932843,
+        "ready": 4
+      },
+      {
+        "wall": 9.00010000000056,
+        "media": 8.932788,
+        "ready": 4
+      },
+      {
+        "wall": 10.00010000000056,
+        "media": 9.927156,
+        "ready": 4
+      },
+      {
+        "wall": 11.00010000000056,
+        "media": 10.932472,
+        "ready": 4
+      },
+      {
+        "wall": 12.00010000000056,
+        "media": 11.932784,
+        "ready": 4
+      },
+      {
+        "wall": 13.00010000000056,
+        "media": 12.932816,
+        "ready": 4
+      },
+      {
+        "wall": 14.000200000000186,
+        "media": 13.9328,
+        "ready": 4
+      },
+      {
+        "wall": 15.00010000000056,
+        "media": 14.932781,
+        "ready": 4
+      }
+    ],
+    "firstFrame": {
+      "media": 0.016667,
+      "presented": 2
+    },
+    "lastFrame": {
+      "media": 14.983333,
+      "presented": 900
+    },
+    "frameCallbacks": 760
+  },
+  "errors": [],
+  "passed": true
+}

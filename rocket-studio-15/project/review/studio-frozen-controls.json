@@ -1,0 +1,23 @@
+{
+  "initial": {
+    "subtitleY": "496px",
+    "buttonY": "558px",
+    "titleFit": "1"
+  },
+  "longCopy": "Make what comes next. Design a bolder launch.",
+  "retimedMetadata": "Metadata\nDimensions\n1920\n1080\nFrame rate\n60fps\nDuration\n00:15.48\n",
+  "measured": {
+    "titleFit": "0.7002822741531144",
+    "probeHeight": 283,
+    "maxHeight": 286,
+    "titleClientWidth": 660,
+    "titleScrollWidth": 660,
+    "titleClientHeight": 139,
+    "titleScrollHeight": 139,
+    "brandClientWidth": 1383,
+    "brandScrollWidth": 1383,
+    "brandFit": "0.7002822741531144"
+  },
+  "errors": [],
+  "invalid": false
+}

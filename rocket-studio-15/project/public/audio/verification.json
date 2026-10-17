@@ -1,0 +1,246 @@
+{
+  "source": "timeline.json",
+  "timelineSHA256": "98111070dce2b5cd01af4848675e33cd9640f3bf31bc80828b08a168a45ec27f",
+  "baseline": {
+    "duration": 15,
+    "samples": 720000,
+    "sampleRate": 48000,
+    "channels": 2,
+    "deterministic": true,
+    "finite": true,
+    "clipping": false,
+    "peaks": {
+      "music": 0.7650719285011292,
+      "sfx": 0.42022770643234253,
+      "mix": 0.7699999809265137
+    },
+    "stemSumError": 2.9802322387695312e-8,
+    "lastSamples": {
+      "music": [
+        0,
+        0
+      ],
+      "sfx": [
+        0,
+        0
+      ],
+      "mix": [
+        0,
+        0
+      ]
+    },
+    "loudness": {
+      "integratedLUFS": -16.72,
+      "truePeakDbTP": -2.27,
+      "loudnessRangeLU": 2.3,
+      "method": "FFmpeg loudnorm input analysis; no gain normalization applied"
+    },
+    "cueOnsets": [
+      {
+        "id": "select",
+        "requested": 3.016,
+        "firstAudibleSample": 144769,
+        "firstAudibleTime": 3.016020833333333,
+        "peakDbFS": -9.081618497139349
+      },
+      {
+        "id": "weight",
+        "requested": 5.279999999999999,
+        "firstAudibleSample": 253441,
+        "firstAudibleTime": 5.280020833333333,
+        "peakDbFS": -8.989247564081486
+      },
+      {
+        "id": "fill",
+        "requested": 6.504,
+        "firstAudibleSample": 312193,
+        "firstAudibleTime": 6.504020833333334,
+        "peakDbFS": -7.5303063420758845
+      },
+      {
+        "id": "preview",
+        "requested": 9.224,
+        "firstAudibleSample": 442753,
+        "firstAudibleTime": 9.224020833333332,
+        "peakDbFS": -11.398063390963182
+      }
+    ],
+    "cues": [
+      {
+        "id": "select",
+        "sceneId": "select",
+        "type": "select",
+        "time": 3.016,
+        "duration": 0.22,
+        "strength": 0.8,
+        "pan": 0
+      },
+      {
+        "id": "weight",
+        "sceneId": "style",
+        "type": "click",
+        "time": 5.279999999999999,
+        "duration": 0.22,
+        "strength": 0.6,
+        "pan": 0.5
+      },
+      {
+        "id": "fill",
+        "sceneId": "style",
+        "type": "style",
+        "time": 6.504,
+        "duration": 0.22,
+        "strength": 0.8,
+        "pan": 0.5
+      },
+      {
+        "id": "preview",
+        "sceneId": "reveal",
+        "type": "click",
+        "time": 9.224,
+        "duration": 0.22,
+        "strength": 0.6,
+        "pan": 0
+      },
+      {
+        "id": "expand",
+        "sceneId": "brand",
+        "type": "whoosh",
+        "time": 11.472,
+        "duration": 0.65,
+        "strength": 0.8,
+        "pan": 0
+      },
+      {
+        "id": "resolve",
+        "sceneId": "brand",
+        "type": "resolve",
+        "time": 12.66,
+        "duration": 1.4,
+        "strength": 0.8,
+        "pan": 0
+      }
+    ]
+  },
+  "retiming": {
+    "edit": "style scene +0.8 seconds",
+    "duration": 15.799999999999999,
+    "samples": 758400,
+    "cueShifts": [
+      {
+        "id": "select",
+        "before": 3.016,
+        "after": 3.016,
+        "shift": 0
+      },
+      {
+        "id": "weight",
+        "before": 5.279999999999999,
+        "after": 5.4399999999999995,
+        "shift": 0.16000000000000014
+      },
+      {
+        "id": "fill",
+        "before": 6.504,
+        "after": 6.952,
+        "shift": 0.4480000000000004
+      },
+      {
+        "id": "preview",
+        "before": 9.224,
+        "after": 10.024000000000001,
+        "shift": 0.8000000000000007
+      },
+      {
+        "id": "expand",
+        "before": 11.472,
+        "after": 12.271999999999998,
+        "shift": 0.7999999999999989
+      },
+      {
+        "id": "resolve",
+        "before": 12.66,
+        "after": 13.459999999999999,
+        "shift": 0.7999999999999989
+      }
+    ],
+    "sections": [
+      {
+        "type": "section",
+        "sceneId": "establish",
+        "time": 0,
+        "end": 2.4,
+        "chord": [
+          47,
+          54,
+          57,
+          61,
+          62
+        ],
+        "localBpm": 128
+      },
+      {
+        "type": "section",
+        "sceneId": "select",
+        "time": 2.4,
+        "end": 4.6,
+        "chord": [
+          50,
+          57,
+          61,
+          64,
+          66
+        ],
+        "localBpm": 128
+      },
+      {
+        "type": "section",
+        "sceneId": "style",
+        "time": 4.6,
+        "end": 8.8,
+        "chord": [
+          43,
+          50,
+          54,
+          57,
+          59
+        ],
+        "localBpm": 103.6190476190476
+      },
+      {
+        "type": "section",
+        "sceneId": "reveal",
+        "time": 8.8,
+        "end": 12.200000000000001,
+        "chord": [
+          45,
+          52,
+          57,
+          61,
+          71
+        ],
+        "localBpm": 128
+      },
+      {
+        "type": "section",
+        "sceneId": "brand",
+        "time": 12.2,
+        "end": 15.799999999999999,
+        "chord": [
+          50,
+          57,
+          61,
+          64,
+          66
+        ],
+        "localBpm": 128
+      }
+    ],
+    "cadence": {
+      "type": "cadence",
+      "sceneId": "brand",
+      "time": 13.459999999999999,
+      "end": 15.799999999999999
+    }
+  }
+}

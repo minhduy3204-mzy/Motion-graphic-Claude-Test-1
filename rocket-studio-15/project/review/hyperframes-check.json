@@ -1,0 +1,106 @@
+{
+  "format": "Rocket Studio HyperFrames final verification",
+  "cliVersion": "0.8.168",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "duration": 15,
+  "composition": "hyperframes/index.html",
+  "sharedSources": [
+    "project.json",
+    "src/Workspace.tsx",
+    "src/workspace.css",
+    "src/motion.mjs"
+  ],
+  "gsapAdapter": {
+    "directVisualCssVariables": true,
+    "paused": true,
+    "synchronouslyRegistered": true,
+    "proxyClock": false
+  },
+  "quality": {
+    "passed": true,
+    "lint": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "runtime": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "layout": {
+      "issues": 0,
+      "samples": 9
+    },
+    "motion": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "contrast": {
+      "passed": 212,
+      "total": 212,
+      "warnings": 0
+    }
+  },
+  "conformance": {
+    "passed": true,
+    "samples": 15,
+    "maxTolerance": 0.001,
+    "arbitraryForwardAndReverseSeeking": true,
+    "errors": []
+  },
+  "preview": {
+    "studioUrl": "http://localhost:3021/#project/hyperframes",
+    "status": "running",
+    "persistent": true,
+    "stateEnvironment": "XDG_STATE_HOME=/tmp/rocket-studio-hf-state"
+  },
+  "snapshots": [
+    "hyperframes/.hyperframes/snapshots/frame-1.8.png",
+    "hyperframes/.hyperframes/snapshots/frame-3.6.png",
+    "hyperframes/.hyperframes/snapshots/frame-5.6.png",
+    "hyperframes/.hyperframes/snapshots/frame-6.7.png",
+    "hyperframes/.hyperframes/snapshots/frame-9.6.png",
+    "hyperframes/.hyperframes/snapshots/frame-13.5.png"
+  ],
+  "finalSourceSha256": {
+    "workspace": "5047f685fa9c75af45c195fd2cd96b7b56f7089138468c61da5bbe00ec527b16",
+    "css": "415de9e3dc45434ed15a77fd84dc3ded1fe1554ab56e1748f7c5dcba90e8f205",
+    "motion": "2f79a130afa45746d91d19d8571239e56847d50219e94a4d239655f2dcbd1f8b",
+    "generatedHtml": "f90618a6c959a53e71ebffc9f7210a97be3461018f927bab8b62aeb234d11d37",
+    "adapter": "57ae18d7c483ce51de17ede88ef8365c3894935a05ca09ad04a82b63cd99f2b8"
+  },
+  "environmentNotes": [
+    "CLI could not write optional global history cache; local check log and this report preserve verification.",
+    "System Chromium screenshot capture is used; no optional transcription, TTS, or external music generation required."
+  ],
+  "wrappedPropsControls": {
+    "passed": true,
+    "report": "review/hyperframes-wrapped-controls.json",
+    "defaultRestored": true
+  },
+  "brandTransition": {
+    "motivation": "Website CTA expands into the final brand plane",
+    "time": 11.4,
+    "origin": {
+      "x": 323.11,
+      "y": 915.25,
+      "width": 246.33999999999992,
+      "height": 72.32000000000001
+    },
+    "actual": {
+      "x": 323.1099548339844,
+      "y": 915.25,
+      "width": 246.83438110351562,
+      "height": 72.32000732421875
+    },
+    "maxErrorPx": 0.49438110351570685,
+    "tolerancePx": 2,
+    "passed": true
+  },
+  "transitionSnapshots": [
+    "hyperframes/.hyperframes/snapshots/brand-origin-11.40.png",
+    "hyperframes/.hyperframes/snapshots/brand-origin-11.65.png",
+    "hyperframes/.hyperframes/snapshots/brand-origin-12.00.png"
+  ]
+}

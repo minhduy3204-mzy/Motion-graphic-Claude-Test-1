@@ -1,0 +1,545 @@
+{
+  "title": "Rocket Studio — Make Something Move",
+  "version": "1.0.0",
+  "composer": "Original procedural composition for the Rocket Studio launch film",
+  "license": "Original synthesis. No external music, recordings, or samples.",
+  "duration": 15,
+  "samples": 720000,
+  "channels": 2,
+  "defaultTempoBpm": 128,
+  "defaultBeats": 32,
+  "peakDbFS": -2.2701854965503623,
+  "rmsDbFS": -18.309411063859933,
+  "masterGain": 3.048857467717773,
+  "sections": [
+    {
+      "type": "section",
+      "sceneId": "establish",
+      "time": 0,
+      "end": 2.4,
+      "chord": [
+        47,
+        54,
+        57,
+        61,
+        62
+      ],
+      "localBpm": 128
+    },
+    {
+      "type": "section",
+      "sceneId": "select",
+      "time": 2.4,
+      "end": 4.6,
+      "chord": [
+        50,
+        57,
+        61,
+        64,
+        66
+      ],
+      "localBpm": 128
+    },
+    {
+      "type": "section",
+      "sceneId": "style",
+      "time": 4.6,
+      "end": 8,
+      "chord": [
+        43,
+        50,
+        54,
+        57,
+        59
+      ],
+      "localBpm": 128
+    },
+    {
+      "type": "section",
+      "sceneId": "reveal",
+      "time": 8,
+      "end": 11.4,
+      "chord": [
+        45,
+        52,
+        57,
+        61,
+        71
+      ],
+      "localBpm": 128
+    },
+    {
+      "type": "section",
+      "sceneId": "brand",
+      "time": 11.4,
+      "end": 15,
+      "chord": [
+        50,
+        57,
+        61,
+        64,
+        66
+      ],
+      "localBpm": 128
+    }
+  ],
+  "events": [
+    {
+      "type": "section",
+      "sceneId": "establish",
+      "time": 0,
+      "end": 2.4,
+      "chord": [
+        47,
+        54,
+        57,
+        61,
+        62
+      ],
+      "localBpm": 128
+    },
+    {
+      "type": "section",
+      "sceneId": "select",
+      "time": 2.4,
+      "end": 4.6,
+      "chord": [
+        50,
+        57,
+        61,
+        64,
+        66
+      ],
+      "localBpm": 128
+    },
+    {
+      "type": "section",
+      "sceneId": "style",
+      "time": 4.6,
+      "end": 8,
+      "chord": [
+        43,
+        50,
+        54,
+        57,
+        59
+      ],
+      "localBpm": 128
+    },
+    {
+      "type": "section",
+      "sceneId": "reveal",
+      "time": 8,
+      "end": 11.4,
+      "chord": [
+        45,
+        52,
+        57,
+        61,
+        71
+      ],
+      "localBpm": 128
+    },
+    {
+      "type": "section",
+      "sceneId": "brand",
+      "time": 11.4,
+      "end": 15,
+      "chord": [
+        50,
+        57,
+        61,
+        64,
+        66
+      ],
+      "localBpm": 128
+    },
+    {
+      "type": "pulse",
+      "sceneId": "establish",
+      "time": 0,
+      "beat": 0
+    },
+    {
+      "type": "pulse",
+      "sceneId": "establish",
+      "time": 0.234375,
+      "beat": 0.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "establish",
+      "time": 0.46875,
+      "beat": 1
+    },
+    {
+      "type": "pulse",
+      "sceneId": "establish",
+      "time": 0.703125,
+      "beat": 1.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "establish",
+      "time": 0.9375,
+      "beat": 2
+    },
+    {
+      "type": "pulse",
+      "sceneId": "establish",
+      "time": 1.171875,
+      "beat": 2.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "establish",
+      "time": 1.40625,
+      "beat": 3
+    },
+    {
+      "type": "pulse",
+      "sceneId": "establish",
+      "time": 1.640625,
+      "beat": 3.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "establish",
+      "time": 1.875,
+      "beat": 4
+    },
+    {
+      "type": "pulse",
+      "sceneId": "establish",
+      "time": 2.109375,
+      "beat": 4.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "establish",
+      "time": 2.34375,
+      "beat": 5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "select",
+      "time": 2.578125,
+      "beat": 5.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "select",
+      "time": 2.8125,
+      "beat": 6
+    },
+    {
+      "type": "pulse",
+      "sceneId": "select",
+      "time": 3.046875,
+      "beat": 6.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "select",
+      "time": 3.28125,
+      "beat": 7
+    },
+    {
+      "type": "pulse",
+      "sceneId": "select",
+      "time": 3.515625,
+      "beat": 7.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "select",
+      "time": 3.75,
+      "beat": 8
+    },
+    {
+      "type": "pulse",
+      "sceneId": "select",
+      "time": 3.984375,
+      "beat": 8.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "select",
+      "time": 4.21875,
+      "beat": 9
+    },
+    {
+      "type": "pulse",
+      "sceneId": "select",
+      "time": 4.453125,
+      "beat": 9.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "style",
+      "time": 4.6875,
+      "beat": 10
+    },
+    {
+      "type": "pulse",
+      "sceneId": "style",
+      "time": 4.921875,
+      "beat": 10.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "style",
+      "time": 5.15625,
+      "beat": 11
+    },
+    {
+      "type": "pulse",
+      "sceneId": "style",
+      "time": 5.390625,
+      "beat": 11.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "style",
+      "time": 5.625,
+      "beat": 12
+    },
+    {
+      "type": "pulse",
+      "sceneId": "style",
+      "time": 5.859375,
+      "beat": 12.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "style",
+      "time": 6.09375,
+      "beat": 13
+    },
+    {
+      "type": "pulse",
+      "sceneId": "style",
+      "time": 6.328125,
+      "beat": 13.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "style",
+      "time": 6.5625,
+      "beat": 14
+    },
+    {
+      "type": "pulse",
+      "sceneId": "style",
+      "time": 6.796875,
+      "beat": 14.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "style",
+      "time": 7.03125,
+      "beat": 15
+    },
+    {
+      "type": "pulse",
+      "sceneId": "style",
+      "time": 7.265625,
+      "beat": 15.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "style",
+      "time": 7.5,
+      "beat": 16
+    },
+    {
+      "type": "pulse",
+      "sceneId": "style",
+      "time": 7.734375,
+      "beat": 16.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "style",
+      "time": 7.96875,
+      "beat": 17
+    },
+    {
+      "type": "pulse",
+      "sceneId": "reveal",
+      "time": 8.203125,
+      "beat": 17.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "reveal",
+      "time": 8.4375,
+      "beat": 18
+    },
+    {
+      "type": "pulse",
+      "sceneId": "reveal",
+      "time": 8.671875,
+      "beat": 18.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "reveal",
+      "time": 8.90625,
+      "beat": 19
+    },
+    {
+      "type": "pulse",
+      "sceneId": "reveal",
+      "time": 9.140625,
+      "beat": 19.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "reveal",
+      "time": 9.375,
+      "beat": 20
+    },
+    {
+      "type": "pulse",
+      "sceneId": "reveal",
+      "time": 9.609375,
+      "beat": 20.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "reveal",
+      "time": 9.84375,
+      "beat": 21
+    },
+    {
+      "type": "pulse",
+      "sceneId": "reveal",
+      "time": 10.078125,
+      "beat": 21.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "reveal",
+      "time": 10.3125,
+      "beat": 22
+    },
+    {
+      "type": "pulse",
+      "sceneId": "reveal",
+      "time": 10.546875,
+      "beat": 22.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "reveal",
+      "time": 10.78125,
+      "beat": 23
+    },
+    {
+      "type": "pulse",
+      "sceneId": "reveal",
+      "time": 11.015625,
+      "beat": 23.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "reveal",
+      "time": 11.25,
+      "beat": 24
+    },
+    {
+      "type": "pulse",
+      "sceneId": "brand",
+      "time": 11.484375,
+      "beat": 24.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "brand",
+      "time": 11.71875,
+      "beat": 25
+    },
+    {
+      "type": "pulse",
+      "sceneId": "brand",
+      "time": 11.953125,
+      "beat": 25.5
+    },
+    {
+      "type": "pulse",
+      "sceneId": "brand",
+      "time": 12.1875,
+      "beat": 26
+    },
+    {
+      "type": "pulse",
+      "sceneId": "brand",
+      "time": 12.421875,
+      "beat": 26.5
+    },
+    {
+      "type": "cadence",
+      "sceneId": "brand",
+      "time": 12.66,
+      "end": 15
+    }
+  ],
+  "cues": [
+    {
+      "id": "select",
+      "sceneId": "select",
+      "type": "select",
+      "time": 3.016,
+      "duration": 0.22,
+      "strength": 0.8,
+      "pan": 0
+    },
+    {
+      "id": "weight",
+      "sceneId": "style",
+      "type": "click",
+      "time": 5.279999999999999,
+      "duration": 0.22,
+      "strength": 0.6,
+      "pan": 0.5
+    },
+    {
+      "id": "fill",
+      "sceneId": "style",
+      "type": "style",
+      "time": 6.504,
+      "duration": 0.22,
+      "strength": 0.8,
+      "pan": 0.5
+    },
+    {
+      "id": "preview",
+      "sceneId": "reveal",
+      "type": "click",
+      "time": 9.224,
+      "duration": 0.22,
+      "strength": 0.6,
+      "pan": 0
+    },
+    {
+      "id": "expand",
+      "sceneId": "brand",
+      "type": "whoosh",
+      "time": 11.472,
+      "duration": 0.65,
+      "strength": 0.8,
+      "pan": 0
+    },
+    {
+      "id": "resolve",
+      "sceneId": "brand",
+      "type": "resolve",
+      "time": 12.66,
+      "duration": 1.4,
+      "strength": 0.8,
+      "pan": 0
+    }
+  ],
+  "retiming": "Music pulses map through scene-normalized positions. Scene changes shift later sections, cadence and timeline cue effects. Pitches remain fixed."
+}

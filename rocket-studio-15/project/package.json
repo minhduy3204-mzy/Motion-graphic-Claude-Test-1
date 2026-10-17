@@ -1,0 +1,46 @@
+{
+  "name": "rocket-studio-launch-film",
+  "version": "1.0.0",
+  "description": "Editable 15-second Rocket Studio launch film / HyperFrames + Remotion",
+  "scripts": {
+    "dev": "remotion studio --no-open",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc",
+    "prepare:film": "node scripts/prepare.mjs",
+    "render": "node scripts/render.mjs",
+    "hf:build": "tsx scripts/build-hyperframes.tsx",
+    "hf:check": "npm --prefix hyperframes run check"
+  },
+  "repository": {},
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@fontsource-variable/manrope": "latest",
+    "@fontsource/ibm-plex-mono": "latest",
+    "@remotion/cli": "4.0.536",
+    "@remotion/fonts": "4.0.536",
+    "@remotion/media": "4.0.536",
+    "@remotion/zod-types": "4.0.536",
+    "gsap": "3.14.2",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.536",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.536",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@types/web": "0.0.166",
+    "esbuild": "latest",
+    "eslint": "10.12.0",
+    "prettier": "3.8.1",
+    "puppeteer-core": "24.40.0",
+    "tsx": "latest",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "private": true
+}

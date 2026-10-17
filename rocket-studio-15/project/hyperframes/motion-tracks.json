@@ -1,0 +1,559 @@
+{
+  "timeline": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "duration": 15,
+    "frames": 900,
+    "scenes": [
+      {
+        "id": "establish",
+        "name": "01 / The canvas",
+        "duration": 2.4,
+        "index": 0,
+        "start": 0,
+        "startFrame": 0,
+        "frames": 144,
+        "end": 2.4
+      },
+      {
+        "id": "select",
+        "name": "02 / Select the title",
+        "duration": 2.2,
+        "index": 1,
+        "start": 2.4,
+        "startFrame": 144,
+        "frames": 132,
+        "end": 4.6
+      },
+      {
+        "id": "style",
+        "name": "03 / Give it direction",
+        "duration": 3.4,
+        "index": 2,
+        "start": 4.6,
+        "startFrame": 276,
+        "frames": 204,
+        "end": 8
+      },
+      {
+        "id": "reveal",
+        "name": "04 / Preview the website",
+        "duration": 3.4,
+        "index": 3,
+        "start": 8,
+        "startFrame": 480,
+        "frames": 204,
+        "end": 11.4
+      },
+      {
+        "id": "brand",
+        "name": "05 / Rocket Studio",
+        "duration": 3.6,
+        "index": 4,
+        "start": 11.4,
+        "startFrame": 684,
+        "frames": 216,
+        "end": 15
+      }
+    ],
+    "cues": [
+      {
+        "id": "select",
+        "sceneId": "select",
+        "type": "select",
+        "time": 3.016,
+        "duration": 0.22,
+        "strength": 0.8,
+        "pan": 0
+      },
+      {
+        "id": "weight",
+        "sceneId": "style",
+        "type": "click",
+        "time": 5.279999999999999,
+        "duration": 0.22,
+        "strength": 0.6,
+        "pan": 0.5
+      },
+      {
+        "id": "fill",
+        "sceneId": "style",
+        "type": "style",
+        "time": 6.504,
+        "duration": 0.22,
+        "strength": 0.8,
+        "pan": 0.5
+      },
+      {
+        "id": "preview",
+        "sceneId": "reveal",
+        "type": "click",
+        "time": 9.224,
+        "duration": 0.22,
+        "strength": 0.6,
+        "pan": 0
+      },
+      {
+        "id": "expand",
+        "sceneId": "brand",
+        "type": "whoosh",
+        "time": 11.472,
+        "duration": 0.65,
+        "strength": 0.8,
+        "pan": 0
+      },
+      {
+        "id": "resolve",
+        "sceneId": "brand",
+        "type": "resolve",
+        "time": 12.66,
+        "duration": 1.4,
+        "strength": 0.8,
+        "pan": 0
+      }
+    ]
+  },
+  "initial": {
+    "camera-x": 0,
+    "camera-y": 22,
+    "camera-scale": 0.9,
+    "camera-rx": 5,
+    "camera-ry": -6,
+    "presence": 0.42,
+    "select": 0,
+    "weight": 0,
+    "fill": 0,
+    "weight-value": 0,
+    "fill-value": 0,
+    "focus-weight": 0,
+    "focus-fill": 0,
+    "preview": 0,
+    "brand": 0,
+    "brand-type": 0,
+    "brand-cta": 0,
+    "cursor-x": 1160,
+    "cursor-y": 750,
+    "cursor-alpha": 1,
+    "press": 0,
+    "art-turn": -12
+  },
+  "tracks": [
+    {
+      "prop": "presence",
+      "from": 0.42,
+      "to": 1,
+      "at": 0.12,
+      "duration": 0.75,
+      "ease": "out"
+    },
+    {
+      "prop": "camera-scale",
+      "from": 0.9,
+      "to": 0.98,
+      "at": 0.12,
+      "duration": 1.5,
+      "ease": "out"
+    },
+    {
+      "prop": "camera-y",
+      "from": 22,
+      "to": 0,
+      "at": 0.12,
+      "duration": 1.5,
+      "ease": "out"
+    },
+    {
+      "prop": "camera-rx",
+      "from": 5,
+      "to": 1.8,
+      "at": 0.12,
+      "duration": 1.5,
+      "ease": "out"
+    },
+    {
+      "prop": "camera-ry",
+      "from": -6,
+      "to": -2.5,
+      "at": 0.12,
+      "duration": 1.5,
+      "ease": "out"
+    },
+    {
+      "prop": "camera-x",
+      "from": 0,
+      "to": 115,
+      "at": 2.15,
+      "duration": 1.4520000000000002,
+      "ease": "inOut"
+    },
+    {
+      "prop": "camera-scale",
+      "from": 0.98,
+      "to": 1.1,
+      "at": 2.15,
+      "duration": 1.4520000000000002,
+      "ease": "inOut"
+    },
+    {
+      "prop": "cursor-x",
+      "from": 1160,
+      "to": 800,
+      "at": 2.2199999999999998,
+      "duration": 0.6160000000000001,
+      "ease": "inOut"
+    },
+    {
+      "prop": "cursor-y",
+      "from": 750,
+      "to": 480,
+      "at": 2.2199999999999998,
+      "duration": 0.6160000000000001,
+      "ease": "inOut"
+    },
+    {
+      "prop": "press",
+      "from": 0,
+      "to": 1,
+      "at": 2.971,
+      "duration": 0.045,
+      "ease": "out"
+    },
+    {
+      "prop": "press",
+      "from": 1,
+      "to": 0,
+      "at": 3.016,
+      "duration": 0.13,
+      "ease": "out"
+    },
+    {
+      "prop": "select",
+      "from": 0,
+      "to": 1,
+      "at": 3.016,
+      "duration": 0.18,
+      "ease": "out"
+    },
+    {
+      "prop": "camera-x",
+      "from": 115,
+      "to": -195,
+      "at": 4.359999999999999,
+      "duration": 0.884,
+      "ease": "inOut"
+    },
+    {
+      "prop": "camera-y",
+      "from": 0,
+      "to": -22,
+      "at": 4.359999999999999,
+      "duration": 0.884,
+      "ease": "inOut"
+    },
+    {
+      "prop": "camera-scale",
+      "from": 1.1,
+      "to": 1.035,
+      "at": 4.359999999999999,
+      "duration": 0.884,
+      "ease": "inOut"
+    },
+    {
+      "prop": "camera-ry",
+      "from": -2.5,
+      "to": 2.1,
+      "at": 4.359999999999999,
+      "duration": 0.884,
+      "ease": "inOut"
+    },
+    {
+      "prop": "cursor-x",
+      "from": 800,
+      "to": 1752.5,
+      "at": 4.279999999999999,
+      "duration": 0.748,
+      "ease": "inOut"
+    },
+    {
+      "prop": "cursor-y",
+      "from": 480,
+      "to": 559.5,
+      "at": 4.279999999999999,
+      "duration": 0.748,
+      "ease": "inOut"
+    },
+    {
+      "prop": "focus-weight",
+      "from": 0,
+      "to": 1,
+      "at": 4.9799999999999995,
+      "duration": 0.12,
+      "ease": "out"
+    },
+    {
+      "prop": "press",
+      "from": 0,
+      "to": 1,
+      "at": 5.234999999999999,
+      "duration": 0.045,
+      "ease": "out"
+    },
+    {
+      "prop": "press",
+      "from": 1,
+      "to": 0,
+      "at": 5.279999999999999,
+      "duration": 0.13,
+      "ease": "out"
+    },
+    {
+      "prop": "weight-value",
+      "from": 0,
+      "to": 1,
+      "at": 5.279999999999999,
+      "duration": 0.001,
+      "ease": "linear"
+    },
+    {
+      "prop": "weight",
+      "from": 0,
+      "to": 1,
+      "at": 5.279999999999999,
+      "duration": 0.5,
+      "ease": "out"
+    },
+    {
+      "prop": "cursor-x",
+      "from": 1752.5,
+      "to": 1667,
+      "at": 5.56,
+      "duration": 0.52,
+      "ease": "inOut"
+    },
+    {
+      "prop": "cursor-y",
+      "from": 559.5,
+      "to": 808,
+      "at": 5.56,
+      "duration": 0.52,
+      "ease": "inOut"
+    },
+    {
+      "prop": "focus-weight",
+      "from": 1,
+      "to": 0,
+      "at": 6.124,
+      "duration": 0.12,
+      "ease": "out"
+    },
+    {
+      "prop": "focus-fill",
+      "from": 0,
+      "to": 1,
+      "at": 6.124,
+      "duration": 0.12,
+      "ease": "out"
+    },
+    {
+      "prop": "press",
+      "from": 0,
+      "to": 1,
+      "at": 6.459,
+      "duration": 0.045,
+      "ease": "out"
+    },
+    {
+      "prop": "press",
+      "from": 1,
+      "to": 0,
+      "at": 6.504,
+      "duration": 0.13,
+      "ease": "out"
+    },
+    {
+      "prop": "fill-value",
+      "from": 0,
+      "to": 1,
+      "at": 6.504,
+      "duration": 0.001,
+      "ease": "linear"
+    },
+    {
+      "prop": "fill",
+      "from": 0,
+      "to": 1,
+      "at": 6.504,
+      "duration": 0.45,
+      "ease": "out"
+    },
+    {
+      "prop": "camera-x",
+      "from": -195,
+      "to": 30,
+      "at": 7.85,
+      "duration": 1,
+      "ease": "inOut"
+    },
+    {
+      "prop": "camera-y",
+      "from": -22,
+      "to": 8,
+      "at": 7.85,
+      "duration": 1,
+      "ease": "inOut"
+    },
+    {
+      "prop": "camera-scale",
+      "from": 1.035,
+      "to": 1.01,
+      "at": 7.85,
+      "duration": 1,
+      "ease": "inOut"
+    },
+    {
+      "prop": "camera-rx",
+      "from": 1.8,
+      "to": -1,
+      "at": 7.85,
+      "duration": 1,
+      "ease": "inOut"
+    },
+    {
+      "prop": "camera-ry",
+      "from": 2.1,
+      "to": -2,
+      "at": 7.85,
+      "duration": 1,
+      "ease": "inOut"
+    },
+    {
+      "prop": "focus-fill",
+      "from": 1,
+      "to": 0,
+      "at": 8,
+      "duration": 0.2,
+      "ease": "out"
+    },
+    {
+      "prop": "cursor-x",
+      "from": 1667,
+      "to": 1744.5,
+      "at": 8.2,
+      "duration": 0.714,
+      "ease": "inOut"
+    },
+    {
+      "prop": "cursor-y",
+      "from": 808,
+      "to": 91,
+      "at": 8.2,
+      "duration": 0.714,
+      "ease": "inOut"
+    },
+    {
+      "prop": "press",
+      "from": 0,
+      "to": 1,
+      "at": 9.179,
+      "duration": 0.045,
+      "ease": "out"
+    },
+    {
+      "prop": "press",
+      "from": 1,
+      "to": 0,
+      "at": 9.224,
+      "duration": 0.13,
+      "ease": "out"
+    },
+    {
+      "prop": "preview",
+      "from": 0,
+      "to": 1,
+      "at": 9.224,
+      "duration": 0.7,
+      "ease": "inOut"
+    },
+    {
+      "prop": "select",
+      "from": 1,
+      "to": 0,
+      "at": 9.224,
+      "duration": 0.2,
+      "ease": "out"
+    },
+    {
+      "prop": "camera-scale",
+      "from": 1.01,
+      "to": 1.13,
+      "at": 9.224,
+      "duration": 0.95,
+      "ease": "inOut"
+    },
+    {
+      "prop": "camera-x",
+      "from": 30,
+      "to": -12,
+      "at": 9.224,
+      "duration": 0.95,
+      "ease": "inOut"
+    },
+    {
+      "prop": "camera-rx",
+      "from": -1,
+      "to": 0,
+      "at": 9.224,
+      "duration": 0.95,
+      "ease": "inOut"
+    },
+    {
+      "prop": "camera-ry",
+      "from": -2,
+      "to": 0,
+      "at": 9.224,
+      "duration": 0.95,
+      "ease": "inOut"
+    },
+    {
+      "prop": "cursor-alpha",
+      "from": 1,
+      "to": 0,
+      "at": 9.624,
+      "duration": 0.25,
+      "ease": "out"
+    },
+    {
+      "prop": "brand",
+      "from": 0,
+      "to": 1,
+      "at": 11.4,
+      "duration": 1.0080000000000002,
+      "ease": "inOut"
+    },
+    {
+      "prop": "brand-type",
+      "from": 0,
+      "to": 1,
+      "at": 11.904,
+      "duration": 0.792,
+      "ease": "out"
+    },
+    {
+      "prop": "brand-cta",
+      "from": 0,
+      "to": 1,
+      "at": 12.3,
+      "duration": 0.5040000000000001,
+      "ease": "out"
+    },
+    {
+      "prop": "art-turn",
+      "from": -12,
+      "to": 18,
+      "at": 0.12,
+      "duration": 11.280000000000001,
+      "ease": "smooth"
+    }
+  ]
+}

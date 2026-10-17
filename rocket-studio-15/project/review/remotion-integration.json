@@ -1,0 +1,51 @@
+{
+  "composition": "RocketStudio",
+  "defaultFrames": 900,
+  "fps": 60,
+  "width": 1920,
+  "height": 1080,
+  "studio": {
+    "url": "http://localhost:3020/RocketStudio",
+    "workspaceMounted": true,
+    "fontsLoadedBeforeTitleFitting": true,
+    "propsSchemaValidationErrors": 0,
+    "browserRuntimeErrors": []
+  },
+  "nativeStill": {
+    "file": "review/native-frame-360.png",
+    "frame": 360,
+    "status": "rendered"
+  },
+  "retimedNativeAudio": {
+    "props": "review/retimed-props.json",
+    "change": "establish +1.0 second and longer title copy",
+    "frames": "170-199",
+    "output": "review/retimed-audio-test.mp4",
+    "audioSource": "deterministic WAV data URI synthesized from modified shared timeline",
+    "videoFrames": 30,
+    "width": 480,
+    "height": 270,
+    "sampleRate": 48000,
+    "channels": 2,
+    "fullDecode": "passed",
+    "note": "The short test has 0.512 s container duration from AAC padding; final full export must be checked and trimmed if necessary."
+  },
+  "sourceChecks": {
+    "ownedTypeScript": "no errors",
+    "ownedEslint": "passed"
+  },
+  "frozenVerification": {
+    "rootDefaultsSynced": true,
+    "canonicalFrames": 900,
+    "canonicalDuration": 15,
+    "tsc": "passed",
+    "ownedEslint": "passed",
+    "studioControls": "review/studio-frozen-controls.json",
+    "retime": "review/frozen-retime.json",
+    "retimedNativeExport": "review/frozen-retime-native.mp4",
+    "retimedAudioFullDecode": "passed",
+    "nativeFinalFrame": "review/native-frozen-final.png",
+    "retimedLongBrandFinalFrame": "review/native-retimed-long-brand.png",
+    "review": "Final logo, CTA and URL are readable; longer title and app name auto-fit without overflow."
+  }
+}

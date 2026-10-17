@@ -1,0 +1,9 @@
+project/node_modules/
+project/out/
+project/hyperframes/.hyperframes/
+project/hyperframes/*.log
+project/review/*.png
+project/review/*.jpg
+project/review/*.mp4
+project/review/*.log
+references/

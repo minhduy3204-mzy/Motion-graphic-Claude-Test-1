@@ -1,0 +1,34 @@
+{
+  "review_type": "Independent visual and DOM-target inspection of regenerated actual HyperFrames output",
+  "sample_times": [
+    0.8,
+    3.5,
+    5.5,
+    6.8,
+    8.8,
+    10.5,
+    13.5
+  ],
+  "cursor_targets": "4 of 4 passed: select, weight, fill, preview",
+  "active_material_findings": [],
+  "resolved_findings": [
+    "Selection cursor now intersects the actual headline at3.016 seconds",
+    "All previously missing Unicode arrow glyphs replaced with SVG icons",
+    "Unused Export format control removed; Export heading clears footer text",
+    "Dimensions consistently1180\u00d7650",
+    "Selection dimension annotation and supporting copy no longer overlap"
+  ],
+  "minor_polish_notes": [
+    "Export block bottom border crosses footer region; recommend border-bottom:0 to remove the decorative line",
+    "Manrope glyph ink extends5\u20137px below its CSS line box with overflow visible; no horizontal overflow or clipped visible text. Increase bottom padding if strict container metrics are required."
+  ],
+  "passed_visual_checks": [
+    "Selected object name matches sidebar, bounds and inspector",
+    "Settled typography size, weight and fill readouts match artwork",
+    "Hero headline remains readable throughout inspected states",
+    "Final name, CTA and URL clear inside safe margins",
+    "Final-frame screenshot at13.5seconds clean and usable as poster",
+    "Consistent workspace identity, document and content across shots"
+  ],
+  "limitations": "Still-frame and target-geometry review, not full realtime export playback or audio listening review."
+}
