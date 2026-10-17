@@ -1,0 +1,127 @@
+{
+  "baseline": {
+    "duration": 20,
+    "frames": 1200
+  },
+  "edited": {
+    "duration": 20.5,
+    "frames": 1230,
+    "audioSamples": 984000
+  },
+  "shifts": [
+    {
+      "id": "launch",
+      "baselineStart": 0,
+      "editedStart": 0,
+      "delta": 0
+    },
+    {
+      "id": "orbit",
+      "baselineStart": 3.2,
+      "editedStart": 3.2,
+      "delta": 0
+    },
+    {
+      "id": "flow",
+      "baselineStart": 7.4,
+      "editedStart": 8.2,
+      "delta": 0.7999999999999989
+    },
+    {
+      "id": "fan",
+      "baselineStart": 11.8,
+      "editedStart": 12.3,
+      "delta": 0.5
+    },
+    {
+      "id": "lockup",
+      "baselineStart": 16,
+      "editedStart": 16.5,
+      "delta": 0.5
+    }
+  ],
+  "cues": [
+    {
+      "id": "launch-select",
+      "sceneId": "launch",
+      "type": "select",
+      "time": 0.44800000000000006,
+      "duration": 0.6400000000000001,
+      "strength": 0.55
+    },
+    {
+      "id": "launch-launch",
+      "sceneId": "launch",
+      "type": "launch",
+      "time": 2.2399999999999998,
+      "duration": 0.6400000000000001,
+      "strength": 0.85
+    },
+    {
+      "id": "orbit-expand",
+      "sceneId": "orbit",
+      "type": "whoosh",
+      "time": 3.85,
+      "duration": 0.65,
+      "strength": 0.85
+    },
+    {
+      "id": "orbit-orbit",
+      "sceneId": "orbit",
+      "type": "scan",
+      "time": 6.1,
+      "duration": 0.65,
+      "strength": 0.85
+    },
+    {
+      "id": "flow-grid",
+      "sceneId": "flow",
+      "type": "scan",
+      "time": 8.691999999999998,
+      "duration": 0.65,
+      "strength": 0.85
+    },
+    {
+      "id": "flow-convert",
+      "sceneId": "flow",
+      "type": "select",
+      "time": 9.635,
+      "duration": 0.65,
+      "strength": 0.55
+    },
+    {
+      "id": "flow-automate",
+      "sceneId": "flow",
+      "type": "select",
+      "time": 10.741999999999999,
+      "duration": 0.65,
+      "strength": 0.55
+    },
+    {
+      "id": "fan-unfold",
+      "sceneId": "fan",
+      "type": "unfold",
+      "time": 12.846,
+      "duration": 0.65,
+      "strength": 0.85
+    },
+    {
+      "id": "fan-front-card",
+      "sceneId": "fan",
+      "type": "select",
+      "time": 14.862,
+      "duration": 0.65,
+      "strength": 0.55
+    },
+    {
+      "id": "lockup-resolve",
+      "sceneId": "lockup",
+      "type": "resolve",
+      "time": 17.38,
+      "duration": 1.6,
+      "strength": 0.85
+    }
+  ],
+  "finite": true,
+  "masterPeakDb": -2.158108264786931
+}

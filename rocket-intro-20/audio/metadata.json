@@ -1,0 +1,182 @@
+{
+  "title": "Forward Momentum",
+  "composer": "Original procedural score for Rocket Group",
+  "version": "1.0.0",
+  "license": "Original synthesis; no third-party music or samples.",
+  "duration": 20,
+  "samples": 960000,
+  "channels": 2,
+  "peakDbFS": -2.158107946190392,
+  "rmsDbFS": -16.617211996594484,
+  "masterGain": 2.890378931313039,
+  "sections": [
+    {
+      "type": "section",
+      "scene": "launch",
+      "time": 0,
+      "end": 3.2,
+      "chord": [
+        50,
+        57,
+        61,
+        64,
+        69
+      ],
+      "beats": 6,
+      "beatDuration": 0.5333333333333333
+    },
+    {
+      "type": "section",
+      "scene": "orbit",
+      "time": 3.2,
+      "end": 7.4,
+      "chord": [
+        54,
+        57,
+        61,
+        64,
+        68
+      ],
+      "beats": 8,
+      "beatDuration": 0.525
+    },
+    {
+      "type": "section",
+      "scene": "flow",
+      "time": 7.4,
+      "end": 11.8,
+      "chord": [
+        45,
+        52,
+        57,
+        61,
+        71
+      ],
+      "beats": 8,
+      "beatDuration": 0.55
+    },
+    {
+      "type": "section",
+      "scene": "fan",
+      "time": 11.8,
+      "end": 16,
+      "chord": [
+        52,
+        56,
+        59,
+        66,
+        71
+      ],
+      "beats": 8,
+      "beatDuration": 0.525
+    },
+    {
+      "type": "section",
+      "scene": "lockup",
+      "time": 16,
+      "end": 20,
+      "chord": [
+        45,
+        52,
+        57,
+        61,
+        64,
+        71
+      ],
+      "beats": 8,
+      "beatDuration": 0.5
+    },
+    {
+      "type": "cadence",
+      "time": 18,
+      "end": 20
+    }
+  ],
+  "cues": [
+    {
+      "type": "select",
+      "time": 1.152,
+      "duration": 0.6400000000000001,
+      "strength": 0.55
+    },
+    {
+      "type": "launch",
+      "time": 2.2399999999999998,
+      "duration": 0.6400000000000001,
+      "strength": 0.85
+    },
+    {
+      "type": "whoosh",
+      "time": 3.7460000000000004,
+      "duration": 0.65,
+      "strength": 0.85
+    },
+    {
+      "type": "scan",
+      "time": 5.636,
+      "duration": 0.65,
+      "strength": 0.85
+    },
+    {
+      "type": "scan",
+      "time": 7.928000000000001,
+      "duration": 0.65,
+      "strength": 0.85
+    },
+    {
+      "type": "select",
+      "time": 8.940000000000001,
+      "duration": 0.65,
+      "strength": 0.55
+    },
+    {
+      "type": "select",
+      "time": 10.128,
+      "duration": 0.65,
+      "strength": 0.55
+    },
+    {
+      "type": "unfold",
+      "time": 12.346,
+      "duration": 0.65,
+      "strength": 0.85
+    },
+    {
+      "type": "select",
+      "time": 12.346,
+      "duration": 0.06,
+      "strength": 0.2975
+    },
+    {
+      "type": "select",
+      "time": 12.424,
+      "duration": 0.06,
+      "strength": 0.2975
+    },
+    {
+      "type": "select",
+      "time": 12.5085,
+      "duration": 0.06,
+      "strength": 0.2975
+    },
+    {
+      "type": "select",
+      "time": 12.606,
+      "duration": 0.06,
+      "strength": 0.2975
+    },
+    {
+      "type": "select",
+      "time": 14.362,
+      "duration": 0.65,
+      "strength": 0.55
+    },
+    {
+      "type": "resolve",
+      "time": 16.88,
+      "duration": 1.6,
+      "strength": 0.85
+    }
+  ],
+  "retiming": "All section harmony, rhythmic patterns, final cadence, and SFX are regenerated from timeline.json."
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "asset": "/workspace/Motion-graphic-Claude-Test-1/rocket-intro-20/assets/imce-services.png",
+    "dimensions": [
+      1440,
+      1000
+    ],
+    "old_sha256": "0e38fec35e3cff897ca41b1ca39a4597d78a41dac43bd4fa83df84ac752ef173",
+    "new_sha256": "1f0625752ffcf59ca00093198053bbb27f87767dd2689ef8075b39a2b3f567b9"
+  },
+  {
+    "asset": "/workspace/Motion-graphic-Claude-Test-1/rocket-intro-20/assets/website.png",
+    "dimensions": [
+      1440,
+      1000
+    ],
+    "old_sha256": "88f29a8b6ba90fe30fef2d58feb6a7f0a82a143e9902aaaa430f4b9ecef664ff",
+    "new_sha256": "4bdb9bfb850993079dfeaca5e772b7f2b6e506a57a707ce90819eee90f05e697"
+  },
+  {
+    "asset": "/workspace/Motion-graphic-Claude-Test-1/rocket-intro-20/assets/digital-media.png",
+    "dimensions": [
+      1440,
+      1000
+    ],
+    "old_sha256": "41734b09ffb74e112d66752a4de1cb5cc9730995232cbc7e26949b7b7c56c2f7",
+    "new_sha256": "19312c67339ca1e9e5212bf4444e77662a03a53e9561a9909b0ddb3e6ce7cc59"
+  },
+  {
+    "asset": "/workspace/Motion-graphic-Claude-Test-1/rocket-intro-20/assets/brand-experience.png",
+    "dimensions": [
+      1440,
+      1000
+    ],
+    "old_sha256": "530b11d973fdbaea3d026e286f8523879b745a658fd3570e04e23684503ec677",
+    "new_sha256": "abfa21369ec6b40d5b043f7e18b33397980b256bc9e42dde98e2797439070e1c"
+  },
+  {
+    "asset": "/workspace/Motion-graphic-Claude-Test-1/rocket-intro-20/assets/creative-production.png",
+    "dimensions": [
+      1440,
+      1000
+    ],
+    "old_sha256": "404c24f2002f1d928368b79bcd1960acdae5351bf4075d945054586d75c84c93",
+    "new_sha256": "00e42584576e95a869832de6f6b940484d8a3ed3b12349c9d28c0bcabf3d35f1"
+  }
+]

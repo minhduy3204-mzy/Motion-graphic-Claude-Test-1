@@ -1,0 +1,12 @@
+node_modules/
+renders/frames/
+renders/*.mp4
+renders/*.png
+assets/fonts/*.tgz
+references/*
+!references/reference-study.md
+!references/clean-capture-replacements.json
+review/*.png
+review/*.jpg
+review/*.log
+render-project.json

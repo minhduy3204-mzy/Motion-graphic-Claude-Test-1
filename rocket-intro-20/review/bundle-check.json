@@ -1,0 +1,228 @@
+{
+  "archive": "/workspace/Motion-graphic-Claude-Test-1/rocket-intro-20/deliverables/rocket-group-editable-project.zip",
+  "archiveSha256": "c291869e4d61e1534b8c61a402412f65d0149fab18555ea06b55e302f600243a",
+  "extractedRoot": "/tmp/rocket-bundle-check-2lz15pqp/rocket-intro-20",
+  "install": {
+    "command": "npm ci --ignore-scripts --cache /tmp/rocket-bundle-npm-cache",
+    "exitCode": 0,
+    "packagesAdded": 80
+  },
+  "url": "http://127.0.0.1:4193/editor.html",
+  "browserModule": "file:///tmp/rocket-bundle-check-2lz15pqp/rocket-intro-20/node_modules/puppeteer-core/lib/esm/puppeteer/puppeteer-core.js",
+  "started": "2026-10-17T16:46:44.177Z",
+  "errors": [],
+  "responses": [
+    {
+      "path": "/editor.html",
+      "status": 200
+    },
+    {
+      "path": "/editor.css",
+      "status": 200
+    },
+    {
+      "path": "/index.html",
+      "status": 200
+    },
+    {
+      "path": "/editor.js",
+      "status": 200
+    },
+    {
+      "path": "/assets/fonts/inter-tight-latin-variable.woff2",
+      "status": 200
+    },
+    {
+      "path": "/film.css",
+      "status": 200
+    },
+    {
+      "path": "/assets/mark.png",
+      "status": 200
+    },
+    {
+      "path": "/film.js",
+      "status": 200
+    },
+    {
+      "path": "/core/timeline.js",
+      "status": 200
+    },
+    {
+      "path": "/visuals/geometry.js",
+      "status": 200
+    },
+    {
+      "path": "/project.json",
+      "status": 200
+    },
+    {
+      "path": "/audio-preview-worker.js",
+      "status": 200
+    },
+    {
+      "path": "/audio/synth.js",
+      "status": 200
+    },
+    {
+      "path": "/assets/imce-services.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/website.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/creative-production.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/digital-media.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/brand-experience.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/wordmark.png",
+      "status": 200
+    }
+  ],
+  "initial": {
+    "duration": 20,
+    "frames": 1200,
+    "fps": 60,
+    "audioReady": true,
+    "applyBusy": false,
+    "iframeDuration": 20,
+    "projectMatches": true
+  },
+  "textEdit": {
+    "copy": "Rocket Group \u2014 built for forward momentum",
+    "fittedSize": 84.36,
+    "width": 1430,
+    "scrollWidth": 1430,
+    "height": 198,
+    "editorCopy": "Rocket Group \u2014 built for forward momentum"
+  },
+  "restored": {
+    "projectMatches": true,
+    "duration": 20,
+    "frames": 1200,
+    "audioReady": true
+  },
+  "loadedAssets": [
+    {
+      "path": "/assets/fonts/inter-tight-latin-variable.woff2",
+      "status": 200
+    },
+    {
+      "path": "/assets/mark.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/imce-services.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/website.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/creative-production.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/digital-media.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/brand-experience.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/wordmark.png",
+      "status": 200
+    }
+  ],
+  "resourceCount": 19,
+  "browserClosed": true,
+  "passed": true,
+  "finished": "2026-10-17T16:47:28.775Z",
+  "assetSmokeChecks": [
+    {
+      "path": "assets/BRAND-REFERENCE.md",
+      "status": 200,
+      "bytes": 6335
+    },
+    {
+      "path": "assets/brand-experience.png",
+      "status": 200,
+      "bytes": 462965
+    },
+    {
+      "path": "assets/creative-production.png",
+      "status": 200,
+      "bytes": 461633
+    },
+    {
+      "path": "assets/digital-media.png",
+      "status": 200,
+      "bytes": 420678
+    },
+    {
+      "path": "assets/home-final.png",
+      "status": 200,
+      "bytes": 448940
+    },
+    {
+      "path": "assets/imce-services.png",
+      "status": 200,
+      "bytes": 462245
+    },
+    {
+      "path": "assets/mark.png",
+      "status": 200,
+      "bytes": 4682
+    },
+    {
+      "path": "assets/website.png",
+      "status": 200,
+      "bytes": 464419
+    },
+    {
+      "path": "assets/wordmark.png",
+      "status": 200,
+      "bytes": 68122
+    },
+    {
+      "path": "assets/fonts/INTER-TIGHT-LICENSE.txt",
+      "status": 200,
+      "bytes": 4489
+    },
+    {
+      "path": "assets/fonts/LIBERATION-LICENSE.txt",
+      "status": 200,
+      "bytes": 5756
+    },
+    {
+      "path": "assets/fonts/inter-tight-latin-variable.woff2",
+      "status": 200,
+      "bytes": 44872
+    },
+    {
+      "path": "assets/fonts/liberation-sans-bold.ttf",
+      "status": 200,
+      "bytes": 414568
+    },
+    {
+      "path": "assets/fonts/liberation-sans-regular.ttf",
+      "status": 200,
+      "bytes": 410820
+    }
+  ],
+  "projectUnchanged": true,
+  "projectSha256Before": "d183ee2591523a1660cdc0c224231c5c23921fdf34e553e191ef0219046b01f5",
+  "projectSha256After": "d183ee2591523a1660cdc0c224231c5c23921fdf34e553e191ef0219046b01f5"
+}

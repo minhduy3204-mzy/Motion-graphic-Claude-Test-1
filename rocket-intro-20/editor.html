@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rocket Group — Launch film editor</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23000'/%3E%3Cpath d='M7 8h11l9 8-9 8H7l9-8z' fill='%23f0c400'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+  <header class="app-header">
+    <a class="studio-brand" href="editor.html" aria-label="Rocket launch film editor"><span class="brand-arrow" aria-hidden="true"></span><span>ROCKET<span class="brand-sub">MOTION STUDIO</span></span></a>
+    <div class="project-heading"><strong>Forward momentum</strong><span id="project-spec">1920 × 1080 · 60 FPS · 20.00 SEC</span></div>
+    <div class="header-actions"><span id="save-state" class="save-state">Loading project…</span><button id="import-button" class="button secondary">Import</button><button id="export-button" class="button secondary">Export config</button><button id="render-button" class="button primary">Render MP4 <svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button></div>
+  </header>
+
+  <main class="workspace">
+    <aside class="scene-sidebar">
+      <div class="sidebar-title"><h1>Scenes</h1><span id="scene-count" class="count">05</span></div>
+      <nav id="scene-list" class="scene-list" aria-label="Film scenes"></nav>
+      <div class="sidebar-title layer-title"><h2>Layers</h2><span id="layer-count" class="count"></span></div>
+      <div id="layer-list" class="layer-list" aria-label="Scene layers"></div>
+      <div class="sidebar-bottom"><span class="live-dot"></span> Editable, code-built motion <button id="reset-button" title="Restore the supplied project">Reset</button></div>
+    </aside>
+
+    <section class="stage-column" aria-label="Film preview and timeline">
+      <div class="stage-toolbar"><span><i class="live-dot"></i> COMPOSITION</span><span id="preview-status">Loading preview</span><span class="resolution-tag">16:9 · FIT</span></div>
+      <div class="preview-surround"><div id="preview-frame-wrap" class="preview-frame-wrap"><iframe id="film-frame" src="index.html?editor=1" title="Rocket Group film preview" allow="autoplay" tabindex="-1"></iframe></div></div>
+      <div class="transport"><div class="transport-left"><button id="back-button" class="icon-button" title="Go to start" aria-label="Go to start"><svg width="15" height="15" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 4v12M16 4l-9 6 9 6z" stroke="currentColor" fill="none" stroke-width="1.5"/></svg></button><button id="play-button" class="play-button" disabled aria-label="Play film"><span class="play-glyph" aria-hidden="true"></span></button><span id="timecode" class="timecode">00:00.00 <span>/ 00:20.00</span></span></div><div class="transport-right"><span id="audio-status" class="audio-status">Preparing audio</span><button id="sound-button" class="sound-button" aria-pressed="true" title="Toggle preview audio">Sound on</button><label class="volume-label">Volume<input id="volume" type="range" min="0" max="1" step="0.01" value="0.75" aria-label="Preview volume"></label></div></div>
+      <div class="timeline-container"><div id="timeline-scenes" class="timeline-scenes" aria-label="Scene timing"></div><input id="scrubber" class="scrubber" type="range" min="0" max="20" step="0.0166667" value="0" aria-label="Film playhead"><div class="timeline-ticks" id="timeline-ticks"></div></div>
+      <div class="stage-note"><span>SPACE play / pause · ← → frame · SHIFT + ← → second</span><span id="timing-note">One timeline drives picture + sound.</span></div>
+      <div class="scene-summary"><div><span class="eyebrow">NOW EDITING</span><h2 id="selected-scene-name">Loading…</h2><p id="selected-scene-time"></p></div><p>Copy changes resize automatically.<br>Timing changes rebuild the soundtrack.</p></div>
+    </section>
+
+    <aside class="inspector" aria-label="Project controls"><div class="inspector-tabs" role="tablist"><button class="active" id="layer-tab" role="tab" aria-selected="true">Layer</button><button id="scene-tab" role="tab" aria-selected="false">Scene</button><button id="palette-tab" role="tab" aria-selected="false">Palette</button></div><div id="inspector-content" class="inspector-content"></div><div class="inspector-footer">SOURCE PROJECT · ALL CONTROLS LOCAL</div></aside>
+  </main>
+
+  <input id="import-file" type="file" accept="application/json,.json" hidden>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="render-dialog"><div class="dialog-eyebrow">FULL-QUALITY EXPORT</div><h2>Render your current edit</h2><p>Export the configuration, place it in the project folder as <strong>rocket-project.json</strong>, then run:</p><code>node scripts/render.mjs --config rocket-project.json</code><p>The renderer uses the same scene timeline to build picture, music, and synchronized effects. Preview audio volume does not affect the export.</p><div class="dialog-actions"><button id="dialog-export" class="button primary">Export config</button><button id="dialog-close" class="button secondary">Close</button></div></dialog>
+  <script type="module" src="editor.js"></script>
+</body>
+</html>

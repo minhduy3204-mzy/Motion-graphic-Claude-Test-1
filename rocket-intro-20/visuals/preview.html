@@ -1,0 +1,11 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Rocket Geometry — QA</title><style>html,body{margin:0;background:#f4f5f6}canvas{width:100vw;height:auto;display:block}</style></head><body><canvas id="c" width="1920" height="1080"></canvas><script type="module">
+import {drawPointField,drawFan,clearGeometryCache} from './geometry.js';
+const canvas=document.querySelector('canvas'),ctx=canvas.getContext('2d');
+const imgs={};const im=new Image();im.src='../../website-audit-2026-10-17/desktop/home-hero-1440.png';await im.decode();imgs.hero=im;
+const font=new FontFace('Inter Tight','url(../assets/fonts/inter-tight-latin-wght-normal.woff2)',{weight:'100 900'});try{await font.load();document.fonts.add(font);}catch{}
+clearGeometryCache();
+window.draw=(time=3)=>{ctx.fillStyle='#F5F6F7';ctx.fillRect(0,0,1920,1080);ctx.fillStyle='#101010';ctx.font='600 28px "Inter Tight",Arial';ctx.fillText('01 / FIBONACCI SPHERE',90,70);ctx.fillText('02 / WAVE GRID',1050,70);ctx.fillText('03 / PERSPECTIVE CARD FAN',90,620);
+drawPointField(ctx,{time,x:460,y:325,scale:.85,shape:0,expansion:.3,orbit:true});
+drawPointField(ctx,{time,x:1420,y:325,scale:.85,shape:1,expansion:1});
+drawFan(ctx,{time,progress:1,x:1090,y:835,scale:1.04,cards:[{text:'Brand experience',color:'#0057FF'},{text:'Creative production',color:'#FF6A00'},{text:'Transform. Convert. Automate.',image:'hero',color:'#F0C400'},{text:'Digital media',color:'#061A4A'},{text:'Website',color:'#0057FF'}],images:imgs});};window.draw();window.ready=true;
+</script></body></html>

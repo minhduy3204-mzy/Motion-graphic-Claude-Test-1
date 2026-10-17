@@ -1,0 +1,13 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {spawnSync} from 'node:child_process';
+import {compileTimeline} from '../core/timeline.js';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const args=process.argv.slice(2),config=args.includes('--config')?args[args.indexOf('--config')+1]:'project.json';
+const project=JSON.parse(await fs.readFile(path.resolve(root,config),'utf8'));
+const timeline=compileTimeline(project);
+await fs.writeFile(path.join(root,'timeline.json'),JSON.stringify(timeline,null,2)+'\n');
+await fs.writeFile(path.join(root,'render-project.json'),JSON.stringify(project,null,2)+'\n');
+const audio=spawnSync(process.execPath,['audio/build.mjs'],{cwd:root,stdio:'inherit'});if(audio.status)process.exit(audio.status);
+console.log(`Prepared ${timeline.frames} frames / ${timeline.duration.toFixed(3)} seconds`);

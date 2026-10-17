@@ -1,0 +1,18 @@
+{
+  "defaultDuration": 20,
+  "defaultSamples": 960000,
+  "deterministic": true,
+  "finiteSamples": true,
+  "stemsSumMaximumError": 2.9802322387695312e-8,
+  "actualPeakDbFS": -2.158108264786931,
+  "integratedLoudnessLUFS": -15.3,
+  "truePeakDbFS": -2.2,
+  "loudnessRangeLU": 2.9,
+  "retimedDuration": 21.400000000000002,
+  "retimedSamples": 1027200,
+  "retimedLockupStart": 17.400000000000002,
+  "retimedCadence": 19.400000000000002,
+  "retimedResolveCue": 17.400000000000002,
+  "checksPassed": true,
+  "timingToleranceSeconds": 1e-8
+}

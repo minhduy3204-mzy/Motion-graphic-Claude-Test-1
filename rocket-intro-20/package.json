@@ -1,0 +1,16 @@
+{
+  "name": "rocket-group-original-launch-film",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "prepare:film": "node scripts/prepare.mjs",
+    "render": "node scripts/render.mjs",
+    "review": "node scripts/qa.mjs",
+    "test:controls": "node scripts/test-controls.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "24.40.0"
+  }
+}

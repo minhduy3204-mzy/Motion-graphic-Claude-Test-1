@@ -1,0 +1,141 @@
+{
+  "fps": 60,
+  "duration": 20,
+  "frames": 1200,
+  "width": 1920,
+  "height": 1080,
+  "scenes": [
+    {
+      "id": "launch",
+      "name": "01 / Transform",
+      "index": 0,
+      "start": 0,
+      "startFrame": 0,
+      "frames": 192,
+      "duration": 3.2,
+      "end": 3.2
+    },
+    {
+      "id": "orbit",
+      "name": "02 / Business performance",
+      "index": 1,
+      "start": 3.2,
+      "startFrame": 192,
+      "frames": 252,
+      "duration": 4.2,
+      "end": 7.4
+    },
+    {
+      "id": "flow",
+      "name": "03 / Connected motion",
+      "index": 2,
+      "start": 7.4,
+      "startFrame": 444,
+      "frames": 264,
+      "duration": 4.4,
+      "end": 11.8
+    },
+    {
+      "id": "fan",
+      "name": "04 / One team",
+      "index": 3,
+      "start": 11.8,
+      "startFrame": 708,
+      "frames": 252,
+      "duration": 4.2,
+      "end": 16
+    },
+    {
+      "id": "lockup",
+      "name": "05 / Rocket Group",
+      "index": 4,
+      "start": 16,
+      "startFrame": 960,
+      "frames": 240,
+      "duration": 4,
+      "end": 20
+    }
+  ],
+  "cues": [
+    {
+      "id": "launch-select",
+      "sceneId": "launch",
+      "type": "select",
+      "time": 1.152,
+      "duration": 0.6400000000000001,
+      "strength": 0.55
+    },
+    {
+      "id": "launch-launch",
+      "sceneId": "launch",
+      "type": "launch",
+      "time": 2.2399999999999998,
+      "duration": 0.6400000000000001,
+      "strength": 0.85
+    },
+    {
+      "id": "orbit-expand",
+      "sceneId": "orbit",
+      "type": "whoosh",
+      "time": 3.7460000000000004,
+      "duration": 0.65,
+      "strength": 0.85
+    },
+    {
+      "id": "orbit-orbit",
+      "sceneId": "orbit",
+      "type": "scan",
+      "time": 5.636,
+      "duration": 0.65,
+      "strength": 0.85
+    },
+    {
+      "id": "flow-grid",
+      "sceneId": "flow",
+      "type": "scan",
+      "time": 7.928000000000001,
+      "duration": 0.65,
+      "strength": 0.85
+    },
+    {
+      "id": "flow-convert",
+      "sceneId": "flow",
+      "type": "select",
+      "time": 8.940000000000001,
+      "duration": 0.65,
+      "strength": 0.55
+    },
+    {
+      "id": "flow-automate",
+      "sceneId": "flow",
+      "type": "select",
+      "time": 10.128,
+      "duration": 0.65,
+      "strength": 0.55
+    },
+    {
+      "id": "fan-unfold",
+      "sceneId": "fan",
+      "type": "unfold",
+      "time": 12.346,
+      "duration": 0.65,
+      "strength": 0.85
+    },
+    {
+      "id": "fan-front-card",
+      "sceneId": "fan",
+      "type": "select",
+      "time": 14.362,
+      "duration": 0.65,
+      "strength": 0.55
+    },
+    {
+      "id": "lockup-resolve",
+      "sceneId": "lockup",
+      "type": "resolve",
+      "time": 16.88,
+      "duration": 1.6,
+      "strength": 0.85
+    }
+  ]
+}

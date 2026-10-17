@@ -1,0 +1,658 @@
+{
+  "errors": [],
+  "layouts": [
+    {
+      "time": 0,
+      "layers": []
+    },
+    {
+      "time": 0.6,
+      "layers": [
+        {
+          "id": "launch-kicker",
+          "text": "PERFORMANCE-BASED IMCE AGENCY",
+          "font": "26px",
+          "x": 134.43223571777344,
+          "y": 187.69955444335938,
+          "width": 521.0611572265625,
+          "height": 35.23948669433594,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "launch-title",
+          "text": "Transforming",
+          "font": "166px",
+          "x": 130.41561889648438,
+          "y": 345.061279296875,
+          "width": 896.1593017578125,
+          "height": 200.0146484375,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "launch-accent",
+          "text": "brand.",
+          "font": "186px",
+          "x": 130.41561889648438,
+          "y": 537.8214721679688,
+          "width": 499.2208557128906,
+          "height": 224.11431884765625,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "launch-location",
+          "text": "HO CHI MINH CITY · SINCE 2018",
+          "font": "25px",
+          "x": 134.43223571777344,
+          "y": 888.5982055664062,
+          "width": 415.70355224609375,
+          "height": 33.89013671875,
+          "overflow": false,
+          "outside": false
+        }
+      ]
+    },
+    {
+      "time": 1.6,
+      "layers": [
+        {
+          "id": "launch-kicker",
+          "text": "PERFORMANCE-BASED IMCE AGENCY",
+          "font": "26px",
+          "x": 118.55467987060547,
+          "y": 179.8867645263672,
+          "width": 530.5816650390625,
+          "height": 35.88336181640625,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "launch-title",
+          "text": "Transforming",
+          "font": "166px",
+          "x": 114.46467590332031,
+          "y": 338.374267578125,
+          "width": 912.5333862304688,
+          "height": 203.66925048828125,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "launch-accent",
+          "text": "brand.",
+          "font": "186px",
+          "x": 114.46467590332031,
+          "y": 532.6492919921875,
+          "width": 508.34228515625,
+          "height": 228.209228515625,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "launch-location",
+          "text": "HO CHI MINH CITY · SINCE 2018",
+          "font": "25px",
+          "x": 118.55467987060547,
+          "y": 893.591796875,
+          "width": 423.29901123046875,
+          "height": 34.50933837890625,
+          "overflow": false,
+          "outside": false
+        }
+      ]
+    },
+    {
+      "time": 2.8,
+      "layers": [
+        {
+          "id": "launch-kicker",
+          "text": "PERFORMANCE-BASED IMCE AGENCY",
+          "font": "26px",
+          "x": 100.224853515625,
+          "y": 171.0947265625,
+          "width": 541.253662109375,
+          "height": 36.6051025390625,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "launch-title",
+          "text": "Transforming",
+          "font": "166px",
+          "x": 96.05258178710938,
+          "y": 332.77001953125,
+          "width": 930.8878173828125,
+          "height": 207.7657470703125,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "launch-accent",
+          "text": "brand.",
+          "font": "186px",
+          "x": 96.05258178710938,
+          "y": 530.95263671875,
+          "width": 518.5670166015625,
+          "height": 232.79937744140625,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "launch-location",
+          "text": "HO CHI MINH CITY · SINCE 2018",
+          "font": "25px",
+          "x": 100.224853515625,
+          "y": 899.155029296875,
+          "width": 431.81317138671875,
+          "height": 35.2034912109375,
+          "overflow": false,
+          "outside": false
+        }
+      ]
+    },
+    {
+      "time": 3.2,
+      "layers": [
+        {
+          "id": "launch-kicker",
+          "text": "PERFORMANCE-BASED IMCE AGENCY",
+          "font": "26px",
+          "x": 62.830596923828125,
+          "y": 169.91424560546875,
+          "width": 542.2569580078125,
+          "height": 36.6729736328125,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "launch-title",
+          "text": "Transforming",
+          "font": "166px",
+          "x": 58.650596618652344,
+          "y": 331.8892517089844,
+          "width": 932.6134643554688,
+          "height": 208.15090942382812,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "launch-accent",
+          "text": "brand.",
+          "font": "186px",
+          "x": 58.650596618652344,
+          "y": 530.439208984375,
+          "width": 519.5282592773438,
+          "height": 233.23095703125,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "launch-location",
+          "text": "HO CHI MINH CITY · SINCE 2018",
+          "font": "25px",
+          "x": 62.830596923828125,
+          "y": 899.32421875,
+          "width": 432.6136169433594,
+          "height": 35.26873779296875,
+          "overflow": false,
+          "outside": false
+        }
+      ]
+    },
+    {
+      "time": 4.2,
+      "layers": [
+        {
+          "id": "orbit-kicker",
+          "text": "TRANSFORM · CONVERT · AUTOMATE",
+          "font": "25px",
+          "x": 129.17852783203125,
+          "y": 167.1338348388672,
+          "width": 491.29913330078125,
+          "height": 33.96728515625,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "orbit-title",
+          "text": "Business\nperformance.",
+          "font": "133px",
+          "x": 125.15278625488281,
+          "y": 338.2761535644531,
+          "width": 732.2939453125,
+          "height": 314.5276794433594,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "orbit-subtitle",
+          "text": "Rocket Group",
+          "font": "34px",
+          "x": 129.17852783203125,
+          "y": 806.2221069335938,
+          "width": 194.6357421875,
+          "height": 44.47198486328125,
+          "overflow": false,
+          "outside": false
+        }
+      ]
+    },
+    {
+      "time": 5.6,
+      "layers": [
+        {
+          "id": "orbit-kicker",
+          "text": "TRANSFORM · CONVERT · AUTOMATE",
+          "font": "25px",
+          "x": 109.33860778808594,
+          "y": 158.10498046875,
+          "width": 501.47735595703125,
+          "height": 34.67100524902344,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "orbit-title",
+          "text": "Business\nperformance.",
+          "font": "133px",
+          "x": 105.22945404052734,
+          "y": 332.7440490722656,
+          "width": 747.4649047851562,
+          "height": 321.0437927246094,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "orbit-subtitle",
+          "text": "Rocket Group",
+          "font": "34px",
+          "x": 109.33860778808594,
+          "y": 810.4332885742188,
+          "width": 198.66798400878906,
+          "height": 45.393310546875,
+          "overflow": false,
+          "outside": false
+        }
+      ]
+    },
+    {
+      "time": 7.4,
+      "layers": [
+        {
+          "id": "orbit-kicker",
+          "text": "TRANSFORM · CONVERT · AUTOMATE",
+          "font": "25px",
+          "x": 55.607025146484375,
+          "y": 150.31524658203125,
+          "width": 510.1232604980469,
+          "height": 35.26873779296875,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "orbit-title",
+          "text": "Business\nperformance.",
+          "font": "133px",
+          "x": 51.427024841308594,
+          "y": 327.9652404785156,
+          "width": 760.351806640625,
+          "height": 326.5788269042969,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "orbit-subtitle",
+          "text": "Rocket Group",
+          "font": "34px",
+          "x": 55.607025146484375,
+          "y": 813.8901977539062,
+          "width": 202.09320068359375,
+          "height": 46.17596435546875,
+          "overflow": false,
+          "outside": false
+        }
+      ]
+    },
+    {
+      "time": 8.3,
+      "layers": [
+        {
+          "id": "flow-kicker",
+          "text": "TRANSFORM · CONVERT · AUTOMATE",
+          "font": "24px",
+          "x": 122.69058990478516,
+          "y": 159.5140838623047,
+          "width": 478.1335144042969,
+          "height": 32.532928466796875,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "flow-transform",
+          "text": "Transform.",
+          "font": "144.75px",
+          "x": 118.67108154296875,
+          "y": 310.8363342285156,
+          "width": 660.3618774414062,
+          "height": 174.53475952148438,
+          "overflow": false,
+          "outside": false
+        }
+      ]
+    },
+    {
+      "time": 9.4,
+      "layers": [
+        {
+          "id": "flow-kicker",
+          "text": "TRANSFORM · CONVERT · AUTOMATE",
+          "font": "24px",
+          "x": 108.01856231689453,
+          "y": 153.84703063964844,
+          "width": 485.06243896484375,
+          "height": 33.00437927246094,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "flow-transform",
+          "text": "Transform.",
+          "font": "144.75px",
+          "x": 103.94080352783203,
+          "y": 306.7630615234375,
+          "width": 669.9315795898438,
+          "height": 177.06405639648438,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "flow-convert",
+          "text": "Convert.",
+          "font": "144.75px",
+          "x": 103.94080352783203,
+          "y": 485.1651611328125,
+          "width": 530.3001098632812,
+          "height": 177.06396484375,
+          "overflow": false,
+          "outside": false
+        }
+      ]
+    },
+    {
+      "time": 10.7,
+      "layers": [
+        {
+          "id": "flow-kicker",
+          "text": "TRANSFORM · CONVERT · AUTOMATE",
+          "font": "24px",
+          "x": 89.5337905883789,
+          "y": 147.00588989257812,
+          "width": 493.8785095214844,
+          "height": 33.604248046875,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "flow-transform",
+          "text": "Transform.",
+          "font": "144.75px",
+          "x": 85.38191223144531,
+          "y": 302.7012023925781,
+          "width": 682.107666015625,
+          "height": 180.28219604492188,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "flow-convert",
+          "text": "Convert.",
+          "font": "144.75px",
+          "x": 85.38191223144531,
+          "y": 484.34576416015625,
+          "width": 539.9384155273438,
+          "height": 180.28216552734375,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "flow-automate",
+          "text": "Automate.",
+          "font": "144.75px",
+          "x": 85.38191223144531,
+          "y": 665.9902954101562,
+          "width": 659.548095703125,
+          "height": 180.28216552734375,
+          "overflow": false,
+          "outside": false
+        }
+      ]
+    },
+    {
+      "time": 11.8,
+      "layers": [
+        {
+          "id": "flow-kicker",
+          "text": "TRANSFORM · CONVERT · AUTOMATE",
+          "font": "24px",
+          "x": 45.882537841796875,
+          "y": 144.70736694335938,
+          "width": 497.2240295410156,
+          "height": 33.831878662109375,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "flow-transform",
+          "text": "Transform.",
+          "font": "144.75px",
+          "x": 41.702537536621094,
+          "y": 301.4573669433594,
+          "width": 686.728271484375,
+          "height": 181.50344848632812,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "flow-convert",
+          "text": "Convert.",
+          "font": "144.75px",
+          "x": 41.702537536621094,
+          "y": 484.33233642578125,
+          "width": 543.595947265625,
+          "height": 181.50341796875,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "flow-automate",
+          "text": "Automate.",
+          "font": "144.75px",
+          "x": 41.702537536621094,
+          "y": 667.2073364257812,
+          "width": 664.015869140625,
+          "height": 181.50341796875,
+          "overflow": false,
+          "outside": false
+        }
+      ]
+    },
+    {
+      "time": 12.6,
+      "layers": [
+        {
+          "id": "fan-kicker",
+          "text": "STRATEGY · CREATIVE · PERFORMANCE",
+          "font": "24px",
+          "x": 113.68994140625,
+          "y": 165.17945861816406,
+          "width": 503.0638427734375,
+          "height": 32.51344299316406,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "fan-title",
+          "text": "One team.\nNo hand-offs.",
+          "font": "119px",
+          "x": 109.67283630371094,
+          "y": 337.3975830078125,
+          "width": 657.5654296875,
+          "height": 280.8206787109375,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "fan-subtitle",
+          "text": "Connected expertise, from strategy to execution.",
+          "font": "31px",
+          "x": 113.68994140625,
+          "y": 797.8733520507812,
+          "width": 615.24462890625,
+          "height": 40.46917724609375,
+          "overflow": false,
+          "outside": false
+        }
+      ]
+    },
+    {
+      "time": 13.8,
+      "layers": [
+        {
+          "id": "fan-kicker",
+          "text": "STRATEGY · CREATIVE · PERFORMANCE",
+          "font": "24px",
+          "x": 97.31050872802734,
+          "y": 159.92996215820312,
+          "width": 511.3881530761719,
+          "height": 33.05143737792969,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "fan-title",
+          "text": "One team.\nNo hand-offs.",
+          "font": "119px",
+          "x": 93.2269287109375,
+          "y": 333.48193359375,
+          "width": 668.4463500976562,
+          "height": 285.467529296875,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "fan-subtitle",
+          "text": "Connected expertise, from strategy to execution.",
+          "font": "31px",
+          "x": 97.31050872802734,
+          "y": 803.0932006835938,
+          "width": 625.4252319335938,
+          "height": 41.13885498046875,
+          "overflow": false,
+          "outside": false
+        }
+      ]
+    },
+    {
+      "time": 15.2,
+      "layers": []
+    },
+    {
+      "time": 16,
+      "layers": []
+    },
+    {
+      "time": 16.8,
+      "layers": [
+        {
+          "id": "lockup-kicker",
+          "text": "PERFORMANCE-BASED IMCE AGENCY",
+          "font": "27px",
+          "x": 350.87164306640625,
+          "y": 260.40020751953125,
+          "width": 538.10498046875,
+          "height": 36.38543701171875,
+          "overflow": false,
+          "outside": false
+        }
+      ]
+    },
+    {
+      "time": 18,
+      "layers": [
+        {
+          "id": "lockup-kicker",
+          "text": "PERFORMANCE-BASED IMCE AGENCY",
+          "font": "27px",
+          "x": 350,
+          "y": 260,
+          "width": 538.875,
+          "height": 36.4375,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "lockup-cta",
+          "text": "Let’s launch.",
+          "font": "72px",
+          "x": 350,
+          "y": 704,
+          "width": 359.421875,
+          "height": 86.390625,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "lockup-url",
+          "text": "rocketgroup.asia",
+          "font": "39px",
+          "x": 1130,
+          "y": 737,
+          "width": 253.15625,
+          "height": 46.78125,
+          "overflow": false,
+          "outside": false
+        }
+      ]
+    },
+    {
+      "time": 19.983333,
+      "layers": [
+        {
+          "id": "lockup-kicker",
+          "text": "PERFORMANCE-BASED IMCE AGENCY",
+          "font": "27px",
+          "x": 350,
+          "y": 260,
+          "width": 538.875,
+          "height": 36.4375,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "lockup-cta",
+          "text": "Let’s launch.",
+          "font": "72px",
+          "x": 350,
+          "y": 704,
+          "width": 359.421875,
+          "height": 86.390625,
+          "overflow": false,
+          "outside": false
+        },
+        {
+          "id": "lockup-url",
+          "text": "rocketgroup.asia",
+          "font": "39px",
+          "x": 1130,
+          "y": 737,
+          "width": 253.15625,
+          "height": 46.78125,
+          "overflow": false,
+          "outside": false
+        }
+      ]
+    }
+  ]
+}

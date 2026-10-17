@@ -1,0 +1,468 @@
+{
+  "name": "Rocket Group / Connected by design",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "palette": {
+    "white": "#FFFFFF",
+    "black": "#000000",
+    "text": "#2E2E2E",
+    "blue": "#0057FF",
+    "orange": "#FF6A00",
+    "yellow": "#FFC400",
+    "logoYellow": "#F0C400",
+    "navy": "#061A4A",
+    "cool": "#E8EEF7"
+  },
+  "fonts": [
+    "Inter Tight",
+    "Liberation Sans"
+  ],
+  "scenes": [
+    {
+      "id": "launch",
+      "name": "01 / Transform",
+      "duration": 3.2,
+      "background": "white",
+      "layers": [
+        {
+          "id": "launch-kicker",
+          "type": "text",
+          "name": "Agency position",
+          "text": "PERFORMANCE-BASED IMCE AGENCY",
+          "visible": true,
+          "fontFamily": "Inter Tight",
+          "fontSize": 26,
+          "fontWeight": 600,
+          "color": "blue",
+          "x": 120,
+          "y": 190,
+          "scale": 1,
+          "maxWidth": 1200,
+          "maxHeight": 65
+        },
+        {
+          "id": "launch-title",
+          "type": "text",
+          "name": "Opening kinetic typography",
+          "text": "Transforming",
+          "visible": true,
+          "fontFamily": "Inter Tight",
+          "fontSize": 166,
+          "fontWeight": 600,
+          "color": "black",
+          "x": 116,
+          "y": 345,
+          "scale": 1,
+          "maxWidth": 1430,
+          "maxHeight": 200
+        },
+        {
+          "id": "launch-accent",
+          "type": "text",
+          "name": "Brand phrase",
+          "text": "brand.",
+          "visible": true,
+          "fontFamily": "Inter Tight",
+          "fontSize": 186,
+          "fontWeight": 700,
+          "color": "orange",
+          "x": 116,
+          "y": 535,
+          "scale": 1,
+          "maxWidth": 1100,
+          "maxHeight": 230
+        },
+        {
+          "id": "launch-location",
+          "type": "text",
+          "name": "Origin",
+          "text": "HO CHI MINH CITY · SINCE 2018",
+          "visible": true,
+          "fontFamily": "Inter Tight",
+          "fontSize": 25,
+          "fontWeight": 500,
+          "color": "black",
+          "x": 120,
+          "y": 888,
+          "scale": 1,
+          "maxWidth": 1000,
+          "maxHeight": 65
+        },
+        {
+          "id": "launch-arrow",
+          "type": "shape",
+          "name": "Brand arrow / initiating action",
+          "visible": true,
+          "x": 1580,
+          "y": 574,
+          "scale": 0.95,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "id": "orbit",
+      "name": "02 / Business performance",
+      "duration": 4.2,
+      "background": "navy",
+      "layers": [
+        {
+          "id": "orbit-kicker",
+          "type": "text",
+          "name": "Brand promise",
+          "text": "TRANSFORM · CONVERT · AUTOMATE",
+          "visible": true,
+          "fontFamily": "Inter Tight",
+          "fontSize": 25,
+          "fontWeight": 500,
+          "color": "yellow",
+          "x": 120,
+          "y": 175,
+          "scale": 1,
+          "maxWidth": 1100,
+          "maxHeight": 65
+        },
+        {
+          "id": "orbit-title",
+          "type": "text",
+          "name": "Performance headline",
+          "text": "Business\nperformance.",
+          "visible": true,
+          "fontFamily": "Inter Tight",
+          "fontSize": 133,
+          "fontWeight": 600,
+          "color": "white",
+          "x": 116,
+          "y": 345,
+          "scale": 1,
+          "maxWidth": 1030,
+          "maxHeight": 380
+        },
+        {
+          "id": "orbit-subtitle",
+          "type": "text",
+          "name": "Agency signature",
+          "text": "Rocket Group",
+          "visible": true,
+          "fontFamily": "Inter Tight",
+          "fontSize": 34,
+          "fontWeight": 500,
+          "color": "white",
+          "x": 120,
+          "y": 810,
+          "scale": 1,
+          "maxWidth": 700,
+          "maxHeight": 80
+        },
+        {
+          "id": "sphere",
+          "type": "points",
+          "name": "Particle sphere",
+          "visible": true,
+          "x": 1430,
+          "y": 560,
+          "scale": 1,
+          "color": "cool",
+          "accent": "yellow",
+          "dotSize": 2.65,
+          "count": 756
+        }
+      ]
+    },
+    {
+      "id": "flow",
+      "name": "03 / Connected motion",
+      "duration": 4.4,
+      "background": "white",
+      "layers": [
+        {
+          "id": "flow-kicker",
+          "type": "text",
+          "name": "Core promise",
+          "text": "TRANSFORM · CONVERT · AUTOMATE",
+          "visible": true,
+          "fontFamily": "Inter Tight",
+          "fontSize": 24,
+          "fontWeight": 600,
+          "color": "blue",
+          "x": 120,
+          "y": 170,
+          "scale": 1,
+          "maxWidth": 1300,
+          "maxHeight": 65
+        },
+        {
+          "id": "flow-transform",
+          "type": "text",
+          "name": "Transform",
+          "text": "Transform.",
+          "visible": true,
+          "fontFamily": "Inter Tight",
+          "fontSize": 150,
+          "fontWeight": 700,
+          "color": "black",
+          "x": 116,
+          "y": 320,
+          "scale": 1,
+          "maxWidth": 1110,
+          "maxHeight": 175
+        },
+        {
+          "id": "flow-convert",
+          "type": "text",
+          "name": "Convert",
+          "text": "Convert.",
+          "visible": true,
+          "fontFamily": "Inter Tight",
+          "fontSize": 150,
+          "fontWeight": 700,
+          "color": "orange",
+          "x": 116,
+          "y": 495,
+          "scale": 1,
+          "maxWidth": 1110,
+          "maxHeight": 175
+        },
+        {
+          "id": "flow-automate",
+          "type": "text",
+          "name": "Automate",
+          "text": "Automate.",
+          "visible": true,
+          "fontFamily": "Inter Tight",
+          "fontSize": 150,
+          "fontWeight": 700,
+          "color": "blue",
+          "x": 116,
+          "y": 670,
+          "scale": 1,
+          "maxWidth": 1110,
+          "maxHeight": 175
+        },
+        {
+          "id": "grid",
+          "type": "points",
+          "name": "Moving dot grid",
+          "visible": true,
+          "x": 1410,
+          "y": 555,
+          "scale": 0.91,
+          "color": "blue",
+          "accent": "orange",
+          "dotSize": 2.5,
+          "count": 756
+        }
+      ]
+    },
+    {
+      "id": "fan",
+      "name": "04 / One team",
+      "duration": 4.2,
+      "background": "cool",
+      "layers": [
+        {
+          "id": "fan-kicker",
+          "type": "text",
+          "name": "Integrated service line",
+          "text": "STRATEGY · CREATIVE · PERFORMANCE",
+          "visible": true,
+          "fontFamily": "Inter Tight",
+          "fontSize": 24,
+          "fontWeight": 600,
+          "color": "blue",
+          "x": 120,
+          "y": 175,
+          "scale": 1,
+          "maxWidth": 1300,
+          "maxHeight": 65
+        },
+        {
+          "id": "fan-title",
+          "type": "text",
+          "name": "Team headline",
+          "text": "One team.\nNo hand-offs.",
+          "visible": true,
+          "fontFamily": "Inter Tight",
+          "fontSize": 119,
+          "fontWeight": 600,
+          "color": "black",
+          "x": 116,
+          "y": 345,
+          "scale": 1,
+          "maxWidth": 840,
+          "maxHeight": 350
+        },
+        {
+          "id": "fan-subtitle",
+          "type": "text",
+          "name": "Service descriptor",
+          "text": "Connected expertise, from strategy to execution.",
+          "visible": true,
+          "fontFamily": "Inter Tight",
+          "fontSize": 31,
+          "fontWeight": 400,
+          "color": "black",
+          "x": 120,
+          "y": 805,
+          "scale": 1,
+          "maxWidth": 850,
+          "maxHeight": 110
+        },
+        {
+          "id": "service-fan",
+          "type": "fan",
+          "name": "3D service fan",
+          "visible": true,
+          "x": 1330,
+          "y": 580,
+          "scale": 0.98,
+          "color": "blue",
+          "cards": [
+            {
+              "text": "IMCE",
+              "image": "assets/imce-services.png",
+              "visible": true,
+              "color": "blue",
+              "scale": 1,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "text": "Website",
+              "image": "assets/website.png",
+              "visible": true,
+              "color": "orange",
+              "scale": 1,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "text": "Digital Media",
+              "image": "assets/digital-media.png",
+              "visible": true,
+              "color": "navy",
+              "scale": 1,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "text": "Brand Experience",
+              "image": "assets/brand-experience.png",
+              "visible": true,
+              "color": "yellow",
+              "scale": 1,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "text": "Creative Production",
+              "image": "assets/creative-production.png",
+              "visible": true,
+              "color": "blue",
+              "scale": 1,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lockup",
+      "name": "05 / Rocket Group",
+      "duration": 4,
+      "background": "white",
+      "layers": [
+        {
+          "id": "lockup-kicker",
+          "type": "text",
+          "name": "Final positioning",
+          "text": "PERFORMANCE-BASED IMCE AGENCY",
+          "visible": true,
+          "fontFamily": "Inter Tight",
+          "fontSize": 27,
+          "fontWeight": 600,
+          "color": "blue",
+          "x": 350,
+          "y": 260,
+          "scale": 1,
+          "maxWidth": 1270,
+          "maxHeight": 70
+        },
+        {
+          "id": "wordmark",
+          "type": "image",
+          "name": "Official Rocket wordmark",
+          "visible": true,
+          "x": 350,
+          "y": 405,
+          "scale": 1,
+          "color": "black",
+          "src": "assets/wordmark.png",
+          "width": 1200,
+          "height": 204
+        },
+        {
+          "id": "lockup-cta",
+          "type": "text",
+          "name": "Launch CTA",
+          "text": "Let’s launch.",
+          "visible": true,
+          "fontFamily": "Inter Tight",
+          "fontSize": 72,
+          "fontWeight": 600,
+          "color": "black",
+          "x": 350,
+          "y": 704,
+          "scale": 1,
+          "maxWidth": 700,
+          "maxHeight": 120
+        },
+        {
+          "id": "lockup-url",
+          "type": "text",
+          "name": "Final URL",
+          "text": "rocketgroup.asia",
+          "visible": true,
+          "fontFamily": "Inter Tight",
+          "fontSize": 39,
+          "fontWeight": 500,
+          "color": "black",
+          "x": 1130,
+          "y": 737,
+          "scale": 1,
+          "maxWidth": 600,
+          "maxHeight": 80
+        },
+        {
+          "id": "lockup-arrow",
+          "type": "shape",
+          "name": "Closing arrow",
+          "visible": true,
+          "x": 1580,
+          "y": 282,
+          "scale": 0.38,
+          "color": "orange"
+        }
+      ]
+    }
+  ],
+  "motion": {
+    "transition": 0.68,
+    "cameraDepth": 0.045,
+    "particleSeed": 43
+  },
+  "audio": {
+    "sampleRate": 48000,
+    "masterGain": 1
+  },
+  "assets": {
+    "mark": "assets/mark.png",
+    "wordmark": "assets/wordmark.png"
+  },
+  "format": {
+    "aspect": "16:9",
+    "defaultSeconds": 20
+  }
+}

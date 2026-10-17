@@ -1,0 +1,140 @@
+{
+  "test": "Real browser editor controls and shared picture/audio timeline",
+  "started": "2026-10-17T16:43:20.379Z",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "checks": [
+    {
+      "name": "Initial 20-second project, stereo soundtrack, and responsive controls",
+      "passed": true,
+      "duration": 20,
+      "audio": {
+        "id": 1,
+        "sampleRate": 48000,
+        "samples": 960000,
+        "channels": 2
+      },
+      "scrollWidth": 1280,
+      "viewport": 1280
+    },
+    {
+      "name": "Long-copy auto fit through actual textarea",
+      "passed": true,
+      "fontSize": 166,
+      "fittedSize": 57.01,
+      "maxWidth": 1430,
+      "maxHeight": 200,
+      "scrollWidth": 1430,
+      "scrollHeight": 134,
+      "text": "Transforming brands and businesses through integrated communication, creative experiences, and digital performance."
+    },
+    {
+      "name": "Layer position, scale, and visibility controls",
+      "passed": true,
+      "left": "184px",
+      "top": "330px",
+      "transform": "translate(0px, 0px) scale(0.88)",
+      "hiddenOpacity": 0,
+      "restoredVisible": true
+    },
+    {
+      "name": "Palette binding updates actual text colour",
+      "passed": true,
+      "blue": "#1348D7",
+      "kickerColour": "rgb(19, 72, 215)"
+    },
+    {
+      "name": "Duration edit recompiles subsequent scenes, music, and sound cues",
+      "passed": true,
+      "duration": 21,
+      "sceneStarts": [
+        {
+          "id": "launch",
+          "start": 0
+        },
+        {
+          "id": "orbit",
+          "start": 4.2
+        },
+        {
+          "id": "flow",
+          "start": 8.4
+        },
+        {
+          "id": "fan",
+          "start": 12.8
+        },
+        {
+          "id": "lockup",
+          "start": 17
+        }
+      ],
+      "audioSamples": 1008000,
+      "audioSampleRate": 48000,
+      "cueCount": 10
+    },
+    {
+      "name": "Final brand lockup stays readable and stationary for final two seconds after retime",
+      "passed": true,
+      "sampleTimes": [
+        19,
+        20,
+        20.983333333333334
+      ],
+      "layers": [
+        {
+          "id": "wordmark",
+          "text": "",
+          "opacity": 1,
+          "x": 350,
+          "y": 405,
+          "width": 1200,
+          "height": 204.203125,
+          "scrollWidth": 1200,
+          "clientWidth": 1200
+        },
+        {
+          "id": "lockup-cta",
+          "text": "Let’s launch.",
+          "opacity": 1,
+          "x": 350,
+          "y": 704,
+          "width": 359.421875,
+          "height": 86.390625,
+          "scrollWidth": 359,
+          "clientWidth": 359
+        },
+        {
+          "id": "lockup-url",
+          "text": "rocketgroup.asia",
+          "opacity": 1,
+          "x": 1130,
+          "y": 737,
+          "width": 253.15625,
+          "height": 46.78125,
+          "scrollWidth": 253,
+          "clientWidth": 253
+        }
+      ]
+    },
+    {
+      "name": "Actual transport starts and pauses synchronized playback",
+      "passed": true,
+      "time": 2.562666666666667,
+      "playing": false,
+      "audioReady": true
+    }
+  ],
+  "errors": [],
+  "projectSha256Before": "d183ee2591523a1660cdc0c224231c5c23921fdf34e553e191ef0219046b01f5",
+  "restoredDefault": {
+    "duration": 20,
+    "projectMatches": true,
+    "audioSamples": 960000
+  },
+  "projectSha256After": "d183ee2591523a1660cdc0c224231c5c23921fdf34e553e191ef0219046b01f5",
+  "passed": true,
+  "finished": "2026-10-17T16:43:29.308Z"
+}

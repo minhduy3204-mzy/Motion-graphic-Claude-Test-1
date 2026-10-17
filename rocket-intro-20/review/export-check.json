@@ -1,0 +1,143 @@
+{
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1",
+    "frames": 1200,
+    "duration": 20
+  },
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "sampleRate": 48000,
+    "duration": 20
+  },
+  "containerDuration": 20,
+  "fullDecodePassed": true,
+  "playback": {
+    "rate": 1,
+    "muted": false,
+    "duration": 20,
+    "wallSeconds": 20.093300000000045,
+    "ended": true,
+    "quality": {
+      "totalVideoFrames": 1200,
+      "droppedVideoFrames": 0,
+      "corruptedVideoFrames": 0
+    },
+    "samples": [
+      {
+        "wall": 1.0003000000000466,
+        "media": 0.918111,
+        "ready": 4
+      },
+      {
+        "wall": 2.0003999999999067,
+        "media": 1.918224,
+        "ready": 4
+      },
+      {
+        "wall": 3.0001999999999533,
+        "media": 2.917628,
+        "ready": 4
+      },
+      {
+        "wall": 4.000300000000046,
+        "media": 3.918124,
+        "ready": 4
+      },
+      {
+        "wall": 5.000399999999907,
+        "media": 4.918232,
+        "ready": 4
+      },
+      {
+        "wall": 6.000199999999953,
+        "media": 5.918044,
+        "ready": 4
+      },
+      {
+        "wall": 7.000100000000093,
+        "media": 6.917956,
+        "ready": 4
+      },
+      {
+        "wall": 8.000199999999953,
+        "media": 7.918017,
+        "ready": 4
+      },
+      {
+        "wall": 9.000300000000047,
+        "media": 8.918141,
+        "ready": 4
+      },
+      {
+        "wall": 10.000800000000046,
+        "media": 9.918655,
+        "ready": 4
+      },
+      {
+        "wall": 11.000199999999953,
+        "media": 10.917981,
+        "ready": 4
+      },
+      {
+        "wall": 12.000199999999953,
+        "media": 11.917824,
+        "ready": 4
+      },
+      {
+        "wall": 13.000199999999953,
+        "media": 12.918013,
+        "ready": 4
+      },
+      {
+        "wall": 14.000399999999907,
+        "media": 13.918274,
+        "ready": 4
+      },
+      {
+        "wall": 15.000100000000094,
+        "media": 14.917922,
+        "ready": 4
+      },
+      {
+        "wall": 16.000199999999953,
+        "media": 15.917532,
+        "ready": 4
+      },
+      {
+        "wall": 17.000199999999953,
+        "media": 16.917805,
+        "ready": 4
+      },
+      {
+        "wall": 18.000600000000095,
+        "media": 17.917909,
+        "ready": 4
+      },
+      {
+        "wall": 19.000199999999953,
+        "media": 18.918014,
+        "ready": 4
+      },
+      {
+        "wall": 20.000399999999907,
+        "media": 19.918311,
+        "ready": 4
+      }
+    ],
+    "firstFrame": {
+      "media": 0.016667,
+      "presented": 2
+    },
+    "lastFrame": {
+      "media": 19.983333,
+      "presented": 1200
+    },
+    "frameCallbacks": 1012
+  },
+  "errors": [],
+  "passed": true
+}
