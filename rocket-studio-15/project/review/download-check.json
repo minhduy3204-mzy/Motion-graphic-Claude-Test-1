@@ -1,0 +1,42 @@
+[
+  {
+    "file": "rocket-studio-assets.zip",
+    "url": "https://github.com/minhduy3204-mzy/Motion-graphic-Claude-Test-1/raw/refs/heads/rocket-group-video-delivery/rocket-studio-15/deliverables/rocket-studio-assets.zip",
+    "status": 200,
+    "bytes": 5658664,
+    "sha256": "b24a5f95ce06cbb00b290a0a0a98b79ead8cf3a6581b01bd66df587c8d1f2127",
+    "matches": true
+  },
+  {
+    "file": "rocket-studio-contact-sheet.jpg",
+    "url": "https://github.com/minhduy3204-mzy/Motion-graphic-Claude-Test-1/raw/refs/heads/rocket-group-video-delivery/rocket-studio-15/deliverables/rocket-studio-contact-sheet.jpg",
+    "status": 200,
+    "bytes": 169412,
+    "sha256": "2888a5270b298e69adfefc4d363586e0be5f1be4bc44e2757320377ccc8947e3",
+    "matches": true
+  },
+  {
+    "file": "rocket-studio-editable-project.zip",
+    "url": "https://github.com/minhduy3204-mzy/Motion-graphic-Claude-Test-1/raw/refs/heads/rocket-group-video-delivery/rocket-studio-15/deliverables/rocket-studio-editable-project.zip",
+    "status": 200,
+    "bytes": 11603166,
+    "sha256": "824d664951dad8b5037119624a00af803316a59d2eab9122aa38a28f51562061",
+    "matches": true
+  },
+  {
+    "file": "rocket-studio-launch-15s.mp4",
+    "url": "https://github.com/minhduy3204-mzy/Motion-graphic-Claude-Test-1/raw/refs/heads/rocket-group-video-delivery/rocket-studio-15/deliverables/rocket-studio-launch-15s.mp4",
+    "status": 200,
+    "bytes": 6282685,
+    "sha256": "150d852101cfcb933b515af13a7d79e0782be06390a2d7c95a3e888006b688a6",
+    "matches": true
+  },
+  {
+    "file": "rocket-studio-thumbnail.png",
+    "url": "https://github.com/minhduy3204-mzy/Motion-graphic-Claude-Test-1/raw/refs/heads/rocket-group-video-delivery/rocket-studio-15/deliverables/rocket-studio-thumbnail.png",
+    "status": 200,
+    "bytes": 142560,
+    "sha256": "ca72dd9d1ae22acefa141c3f4d2be9cc6352df66eb0b508fe8d66a5af1fa1a53",
+    "matches": true
+  }
+]
