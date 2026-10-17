@@ -1,0 +1,42 @@
+[
+  {
+    "file": "rocket-group-contact-sheet.jpg",
+    "url": "https://github.com/minhduy3204-mzy/Motion-graphic-Claude-Test-1/raw/refs/heads/rocket-group-video-delivery/rocket-intro-20/deliverables/rocket-group-contact-sheet.jpg",
+    "status": 200,
+    "bytes": 181272,
+    "sha256": "739fb856bb66d8fdaf2e07f5e40959a2aa7eac64745fab3322448d15fdf0df02",
+    "matches": true
+  },
+  {
+    "file": "rocket-group-editable-project.zip",
+    "url": "https://github.com/minhduy3204-mzy/Motion-graphic-Claude-Test-1/raw/refs/heads/rocket-group-video-delivery/rocket-intro-20/deliverables/rocket-group-editable-project.zip",
+    "status": 200,
+    "bytes": 11293449,
+    "sha256": "c291869e4d61e1534b8c61a402412f65d0149fab18555ea06b55e302f600243a",
+    "matches": true
+  },
+  {
+    "file": "rocket-group-final-frame.png",
+    "url": "https://github.com/minhduy3204-mzy/Motion-graphic-Claude-Test-1/raw/refs/heads/rocket-group-video-delivery/rocket-intro-20/deliverables/rocket-group-final-frame.png",
+    "status": 200,
+    "bytes": 115568,
+    "sha256": "f61cc92e005bc2217cf2c7a28b17b1051b47ca6de9a797fabda9ccb073a24d4d",
+    "matches": true
+  },
+  {
+    "file": "rocket-group-introduction-20s.mp4",
+    "url": "https://github.com/minhduy3204-mzy/Motion-graphic-Claude-Test-1/raw/refs/heads/rocket-group-video-delivery/rocket-intro-20/deliverables/rocket-group-introduction-20s.mp4",
+    "status": 200,
+    "bytes": 9137597,
+    "sha256": "1f97b8fde9e11f3729590731dd9458e817aaab1be5964afb287dc946627e0a35",
+    "matches": true
+  },
+  {
+    "file": "rocket-group-separate-assets.zip",
+    "url": "https://github.com/minhduy3204-mzy/Motion-graphic-Claude-Test-1/raw/refs/heads/rocket-group-video-delivery/rocket-intro-20/deliverables/rocket-group-separate-assets.zip",
+    "status": 200,
+    "bytes": 11071632,
+    "sha256": "57d61c1fed08dcc4d5c67b082efe4714742b86e22f5362699028866cfbb35b81",
+    "matches": true
+  }
+]
